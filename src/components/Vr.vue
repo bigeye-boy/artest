@@ -51,9 +51,9 @@ onBeforeUnmount(() => {
             arjs="sourceType: webcam;debugUIEnabled: false;trackingMethod: best;">
             <Assets></Assets>
             <Camera :center="[store.centerPoi.value.lat, store.centerPoi.value.lng]"></Camera>
-            <Nft></Nft>
-            <a-image ref="npcEl" src="/src/assets/image/marker-cite.png" rotation="0 0 0" width="0.5" height="0.5"
-                position="0 1.6 -2.38"></a-image>
+            <!-- <Nft></Nft> -->
+            <!-- <a-image ref="npcEl" src="/src/assets/image/marker-cite.png" rotation="0 0 0" width="0.5" height="0.5"
+                position="0 1.6 -2.38"></a-image> -->
             <!-- <Points></Points> -->
             <Directions></Directions>
             <a-mixin id="delayVisible" event-set__loaded="visible: true" visible="false"></a-mixin>
