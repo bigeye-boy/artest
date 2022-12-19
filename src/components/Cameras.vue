@@ -10,6 +10,6 @@ defineProps({
 </script>
 <template>
     <a-camera id="cameraRef" ref="cameraRef"
-        :gps-camera="`simulateLatitude:${center[0]};simulateLongitude:${center[1]}`" rotation-reader
+        :gps-projected-camera="`simulateLatitude:${center[0]};simulateLongitude:${center[1]}`" rotation-reader
         look-controls-enabled="false" arjs-look-controls="smoothingFactor: 0.1" />
 </template>

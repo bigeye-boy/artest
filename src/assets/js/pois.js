@@ -5,8 +5,9 @@ export const pointList = {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 40.084663,
-          lng: 116.39747,
+          // lat: 35.9999,
+          lat: 36.00008,
+          lng: 114.0,
         },
         viewport: {
           northeast: {
@@ -34,8 +35,10 @@ export const pointList = {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 40.077153,
-          lng: 116.389968,
+          // lat: 36.00005,
+          // lng: 113.9995,
+          lat: 36.00008,
+          lng: 114.0002,
         },
         viewport: {
           northeast: {
@@ -59,35 +62,35 @@ export const pointList = {
       types: ["hospital", "health", "point_of_interest", "establishment"],
       vicinity: "昌平区九台路39GQ+VX8",
     },
-    // {
-    //   business_status: "OPERATIONAL",
-    //   geometry: {
-    //     location: {
-    //       lat: 40.083057,
-    //       lng: 116.399085,
-    //     },
-    //     viewport: {
-    //       northeast: {
-    //         lat: 40.08437268029149,
-    //         lng: 116.4003240802915,
-    //       },
-    //       southwest: {
-    //         lat: 40.0816747197085,
-    //         lng: 116.3976261197085,
-    //       },
-    //     },
-    //   },
-    //   icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
-    //   icon_background_color: "#F88181",
-    //   icon_mask_base_uri:
-    //     "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
-    //   name: "新兴门诊",
-    //   place_id: "ChIJtXUy4TT-8DURaaAXjCSt-EI",
-    //   reference: "ChIJtXUy4TT-8DURaaAXjCSt-EI",
-    //   scope: "GOOGLE",
-    //   types: ["hospital", "health", "point_of_interest", "establishment"],
-    //   vicinity: "昌平区39MX+6JG",
-    // },
+    {
+      business_status: "OPERATIONAL",
+      geometry: {
+        location: {
+          lat: 35.9998,
+          lng: 114.0002,
+        },
+        viewport: {
+          northeast: {
+            lat: 40.08437268029149,
+            lng: 116.4003240802915,
+          },
+          southwest: {
+            lat: 40.0816747197085,
+            lng: 116.3976261197085,
+          },
+        },
+      },
+      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+      icon_background_color: "#F88181",
+      icon_mask_base_uri:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+      name: "新兴门诊",
+      place_id: "ChIJtXUy4TT-8DURaaAXjCSt-EI",
+      reference: "ChIJtXUy4TT-8DURaaAXjCSt-EI",
+      scope: "GOOGLE",
+      types: ["hospital", "health", "point_of_interest", "establishment"],
+      vicinity: "昌平区39MX+6JG",
+    },
   ],
   status: "OK",
 };

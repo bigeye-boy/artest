@@ -11,18 +11,14 @@ import Assets from './Assets.vue'
 import Directions from './Directions.vue'
 import Leftarrow from './Leftarrow.vue'
 import Rightarrow from './Rightarrow.vue'
-import Bottomarrow from './Bottomarrow.vue'
 
 
 
 const store = useGlobalState()
 const sceneRef = ref(null)
 // const { width: scenewidth, height: sceneheight } = useElementSize(sceneRef)
-const center = ref([
-    40.08547,
-    116.38812
-])
-console.log(store.centerPoi.value.lat);
+
+console.log(store.centerPoi.value);
 const googleKey = 'AIzaSyA1k0MeGsMaYh7nfJz3v47yIxr3rMtI4w4'
 const query = {
     location: `${store.centerPoi.value[0]},${store.centerPoi.value[1]}`,
@@ -54,11 +50,15 @@ onBeforeUnmount(() => {
             <!-- <Nft></Nft> -->
             <!-- <a-image ref="npcEl" src="/src/assets/image/marker-cite.png" rotation="0 0 0" width="0.5" height="0.5"
                 position="0 1.6 -2.38"></a-image> -->
+
             <!-- <Points></Points> -->
             <Directions></Directions>
-            <a-mixin id="delayVisible" event-set__loaded="visible: true" visible="false"></a-mixin>
+
+
             <!-- <Leftarrow></Leftarrow> -->
             <!-- <Rightarrow></Rightarrow> -->
+
+
 
 
         </a-scene>

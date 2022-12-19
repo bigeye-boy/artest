@@ -1,23 +1,18 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, watch } from 'vue'
 import { GoogleMap, Marker, Polyline } from 'vue3-google-map'
 import { useGlobalState } from '@/store'
 // import Directions from './Directions.vue'
 const store = useGlobalState()
 const mapRef = ref(null)
-const flightPlanCoordinates = [
-    { lat: 37.772, lng: -122.214 },
-    { lat: 21.291, lng: -157.821 },
-    { lat: -18.142, lng: 178.431 },
-    { lat: -27.467, lng: 153.027 },
-]
-const flightPath = {
-    path: flightPlanCoordinates,
+
+const flightPath = ref({
+    path: [],
     geodesic: true,
     strokeColor: '#FF0000',
     strokeOpacity: 1.0,
     strokeWeight: 2,
-}
+})
 const markerList = ref([])
 const getLocation = () => {
     if (navigator.geolocation) {
@@ -37,6 +32,28 @@ const getLocation = () => {
     }
 }
 getLocation()
+const setLine = () => {
+    flightPath.value = {
+        path: [],
+        geodesic: true,
+        strokeColor: '#FF0000',
+        strokeOpacity: 1.0,
+        strokeWeight: 2,
+    }
+    let arr = []
+    const steps = store.directions.value.routes[0].legs[0].steps
+    if (steps.length > 0) {
+        arr.push({
+            lat: steps[0].start_location.lat(), lng: steps[0].start_location.lng()
+        })
+    }
+    steps.forEach(item => {
+        arr.push({
+            lat: item.end_location.lat(), lng: item.end_location.lng()
+        })
+    });
+    flightPath.value.path = arr
+}
 const clickMap = (e) => {
     if (markerList.value.length >= 2) {
         markerList.value = []
@@ -48,10 +65,8 @@ const clickMap = (e) => {
         store.setCenterPoi({ lat: e.latLng.lat(), lng: e.latLng.lng() })
     }
     if (markerList.value.length == 2) {
-        console.log(mapRef.value.api);
         const directionsService = new mapRef.value.api.DirectionsService()
         const directionsRenderer = new mapRef.value.api.DirectionsRenderer();
-        console.log(directionsRenderer);
         directionsService.route({
             origin: markerList.value[0],
             destination: markerList.value[1],
@@ -59,14 +74,34 @@ const clickMap = (e) => {
             travelMode: google.maps.TravelMode.DRIVING
         })
             .then((response) => {
+                console.log('获取到了路线', response);
                 directionsRenderer.setDirections(response);
                 store.setDir(response)
+
+
+                setLine()
             })
             .catch((e) => window.alert("Directions request failed due to " + status));
     }
 }
+// watch(store.directions, (old, newval) => {
+//     console.log(newval);
+//     const steps = newval.routes[0].legs[0].steps
+//     console.log(steps);
+//     let arr = []
+//     if (steps.length > 0) {
+//         arr.push({
+//             lat: steps[0].start_location.lat(), lng: steps[0].start_location.lng()
+//         })
+//     }
+//     steps.forEach(item => {
+//         arr.push({
+//             lat: item.end_location.lat(), lng: item.end_location.lng()
+//         })
+//     });
+//     flightPath.value.path = arr
+// })
 onMounted(() => {
-    console.log(mapRef.value);
 })
 </script>
 <template>
@@ -84,8 +119,9 @@ onMounted(() => {
 
 
         <GoogleMap @click="clickMap" ref="mapRef" api-key="AIzaSyA1k0MeGsMaYh7nfJz3v47yIxr3rMtI4w4"
-            style="width: 100%; height: 50vh" :center="store.centerPoi.value" :clickable-icons="false" :zoom="18">
-            <Polyline :options="flightPath" />
+            style="width: 100%; height: 50vh" :center="store.centerPoi.value" :clickable-icons="false" :zoom="18"
+            mapTypeId="satellite">
+            <Polyline v-if="flightPath.path.length > 0" :options="flightPath" />
             <Marker v-for="item in markerList" :key="item.lat" :options="{ position: item }" />
         </GoogleMap>
         <router-link v-if="markerList.length == 2" to="/vrpage">
