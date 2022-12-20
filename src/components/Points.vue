@@ -4,8 +4,9 @@ import { getGreatCircleDistance } from '@/assets/js/util.js'
 import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { useGlobalState } from '@/store'
 import Track from './Track.vue'
-import Tracks from './Tracks.vue'
 
+import Leftarrow from './Leftarrow.vue'
+import Rightarrow from './Rightarrow.vue'
 const store = useGlobalState()
 const clickPoint = () => {
     // alert(1)
@@ -68,6 +69,7 @@ const getLinePoi = computed(() => {
             :lookAt="`#point_${index}`">
         </Track>
     </a-entity>
+
     <!-- 拐弯点 -->
     <a-entity v-for="(item, index) in pointList.results" ref="placeRef" :key="item.place_id" @click.prevent="clickPoint"
         :id="`point_${index}`"

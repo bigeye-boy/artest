@@ -9,8 +9,6 @@ import Nft from './Nft.vue'
 import Points from './Points.vue'
 import Assets from './Assets.vue'
 import Directions from './Directions.vue'
-import Leftarrow from './Leftarrow.vue'
-import Rightarrow from './Rightarrow.vue'
 
 
 
@@ -52,11 +50,8 @@ onBeforeUnmount(() => {
                 position="0 1.6 -2.38"></a-image> -->
 
             <!-- <Points></Points> -->
+
             <Directions></Directions>
-
-
-            <!-- <Leftarrow></Leftarrow> -->
-            <!-- <Rightarrow></Rightarrow> -->
 
 
 

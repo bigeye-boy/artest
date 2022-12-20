@@ -74,6 +74,13 @@ onMounted(() => {
         :position="`${planeposition_x} 0 ${planeposition_z}`"></a-plane> -->
     <a-entity :look-at="lookAt" :position="`${planeposition_x} 0 ${planeposition_z}`">
         <a-plane src="#arrow_bottom_down" :repeat="`1 ${planeRepeat}`" :height="planeHeight" width="0.8"
-            rotation="-90 0 0"></a-plane>
+            rotation="-90 0 0" material="transparent:true">
+            <!-- <a-image src="#arrow_bottom_up" :position="getLinePoi(index).start" rotation="0 90 0"
+                :animation="`property: position;from: ${getLinePoi(index).start};to: ${getLinePoi(index).end}; dur: 9000; easing: linear; loop: true`"></a-image> -->
+        </a-plane>
+
+        <a-plane src="#arrows" :repeat="`${planeRepeat * 2} 1`" height="0.8" :width="planeHeight" rotation="0 90 0"
+            position="0.8 1.2 0" material="transparent:true;side:double">
+        </a-plane>
     </a-entity>
 </template>

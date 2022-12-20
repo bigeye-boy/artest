@@ -32,6 +32,8 @@ const getLocation = () => {
     }
 }
 getLocation()
+
+// set route Line
 const setLine = () => {
     flightPath.value = {
         path: [],
@@ -74,7 +76,6 @@ const clickMap = (e) => {
             travelMode: google.maps.TravelMode.DRIVING
         })
             .then((response) => {
-                console.log('获取到了路线', response);
                 directionsRenderer.setDirections(response);
                 store.setDir(response)
 
@@ -84,23 +85,6 @@ const clickMap = (e) => {
             .catch((e) => window.alert("Directions request failed due to " + status));
     }
 }
-// watch(store.directions, (old, newval) => {
-//     console.log(newval);
-//     const steps = newval.routes[0].legs[0].steps
-//     console.log(steps);
-//     let arr = []
-//     if (steps.length > 0) {
-//         arr.push({
-//             lat: steps[0].start_location.lat(), lng: steps[0].start_location.lng()
-//         })
-//     }
-//     steps.forEach(item => {
-//         arr.push({
-//             lat: item.end_location.lat(), lng: item.end_location.lng()
-//         })
-//     });
-//     flightPath.value.path = arr
-// })
 onMounted(() => {
 })
 </script>
@@ -118,9 +102,9 @@ onMounted(() => {
         </div>
 
 
+        <!-- mapTypeId="satellite" -->
         <GoogleMap @click="clickMap" ref="mapRef" api-key="AIzaSyA1k0MeGsMaYh7nfJz3v47yIxr3rMtI4w4"
-            style="width: 100%; height: 50vh" :center="store.centerPoi.value" :clickable-icons="false" :zoom="18"
-            mapTypeId="satellite">
+            style="width: 100%; height: 50vh" :center="store.centerPoi.value" :clickable-icons="false" :zoom="18">
             <Polyline v-if="flightPath.path.length > 0" :options="flightPath" />
             <Marker v-for="item in markerList" :key="item.lat" :options="{ position: item }" />
         </GoogleMap>
