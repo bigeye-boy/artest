@@ -12,7 +12,7 @@
 
         <img id="bus_station" src="/src/assets/image/placeIcon/bus-line.png" />
         <img id="hospital" src="/src/assets/image/placeIcon/stethoscope-fill.png" />
-        <img id="shopping_mall" src="/src/assets/image/placeIcon/shopping-basket-2.png" />
+        <img id="shopping_mall" src="/src/assets/image/placeIcon/shopping-basket-2-fill.png" />
         <img id="restaurant" src="/src/assets/image/placeIcon/restaurant-line.png" />
         <img id="fire_station" src="/src/assets/image/placeIcon/shield-check-line.png" />
     </a-assets>
