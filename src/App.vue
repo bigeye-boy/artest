@@ -1,7 +1,7 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import Vr from './components/Vr.vue'
+<script>
+// import "mind-ar/dist/mindar-image.prod.js";
+// import 'aframe'
+// import "mind-ar/dist/mindar-image-aframe.prod.js";
 </script>
 
 <template>

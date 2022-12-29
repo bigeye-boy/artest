@@ -39,7 +39,7 @@ const getLinePoi = computed(() => {
         </a-entity>
     </a-entity> -->
 
-    <!-- 底部路线箭头 -->
+    <!-- 路线箭头 -->
     <a-entity v-if="loadScene">
         <!-- <Track v-for="(item, index) in steps" :key="item.encoded_lat_lngs"
             :start-poi="getLinePoi(index).point_poi_start" :end-poi="getLinePoi(index).point_poi_end"

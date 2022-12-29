@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.8 (2353249 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="39.9361500" minlon="116.4092800" maxlat="39.9372600" maxlon="116.4110400"/>
+ <node id="90235958" visible="true" version="23" changeset="31220877" timestamp="2015-05-17T09:04:39Z" user="RationalTangle" uid="2639622" lat="39.9394373" lon="116.4106041">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="269487648" visible="true" version="30" changeset="31220877" timestamp="2015-05-17T09:04:39Z" user="RationalTangle" uid="2639622" lat="39.9357187" lon="116.4107371"/>
+ <node id="340064896" visible="true" version="8" changeset="54846184" timestamp="2017-12-22T17:30:20Z" user="Hermann001" uid="1965631" lat="39.9378272" lon="116.4106152"/>
+ <node id="340066110" visible="true" version="15" changeset="31220877" timestamp="2015-05-17T09:04:39Z" user="RationalTangle" uid="2639622" lat="39.9349806" lon="116.4107736"/>
+ <node id="340066217" visible="true" version="16" changeset="41234648" timestamp="2016-08-04T10:50:16Z" user="Tong Hui" uid="2221187" lat="39.9343880" lon="116.4107841"/>
+ <node id="340254451" visible="true" version="12" changeset="12035668" timestamp="2012-06-27T11:27:46Z" user="R438" uid="376715" lat="39.9386837" lon="116.4106403"/>
+ <node id="342777852" visible="true" version="7" changeset="31220877" timestamp="2015-05-17T09:04:39Z" user="RationalTangle" uid="2639622" lat="39.9356067" lon="116.4107345"/>
+ <node id="342778311" visible="true" version="7" changeset="112293225" timestamp="2021-10-09T09:18:42Z" user="bjliuxiao" uid="10706919" lat="39.9352857" lon="116.4107545"/>
+ <node id="733967235" visible="true" version="5" changeset="54846184" timestamp="2017-12-22T17:30:20Z" user="Hermann001" uid="1965631" lat="39.9380571" lon="116.4106074"/>
+ <node id="1860131971" visible="true" version="2" changeset="31220877" timestamp="2015-05-17T09:04:39Z" user="RationalTangle" uid="2639622" lat="39.9338523" lon="116.4108519"/>
+ <node id="2056639669" visible="true" version="4" changeset="119848409" timestamp="2022-04-18T09:40:58Z" user="Herman Lee" uid="6921384" lat="39.9347325" lon="116.4107788">
+  <tag k="bus" v="yes"/>
+  <tag k="name" v="东四十二条"/>
+  <tag k="name:zh" v="东四十二条"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="2056650537" visible="true" version="5" changeset="119848409" timestamp="2022-04-18T09:40:58Z" user="Herman Lee" uid="6921384" lat="39.9377410" lon="116.4106203">
+  <tag k="bus" v="yes"/>
+  <tag k="name" v="北新桥路口南"/>
+  <tag k="name:zh" v="北新桥路口南"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="2751830669" visible="true" version="1" changeset="21383024" timestamp="2014-03-29T13:38:38Z" user="hanchao" uid="499500" lat="39.9368810" lon="116.4097797"/>
+ <node id="2751830670" visible="true" version="3" changeset="54846184" timestamp="2017-12-22T17:30:21Z" user="Hermann001" uid="1965631" lat="39.9368851" lon="116.4106322"/>
+ <node id="2753131467" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9372803" lon="116.4090642"/>
+ <node id="2753131470" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9373000" lon="116.4097800"/>
+ <node id="2753131472" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9369758" lon="116.4097952"/>
+ <node id="2753131474" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9369715" lon="116.4096391"/>
+ <node id="2753131476" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9370670" lon="116.4096346"/>
+ <node id="2753131478" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9370516" lon="116.4090749"/>
+ <node id="2753131480" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9370381" lon="116.4090547"/>
+ <node id="2753131482" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9370458" lon="116.4095600"/>
+ <node id="2753131484" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9368885" lon="116.4095641"/>
+ <node id="2753131486" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9368869" lon="116.4094592"/>
+ <node id="2753131488" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9367070" lon="116.4094639"/>
+ <node id="2753131496" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9367102" lon="116.4096774"/>
+ <node id="2753131498" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9364635" lon="116.4096838"/>
+ <node id="2753131500" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9364617" lon="116.4095701"/>
+ <node id="2753131502" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9363104" lon="116.4095741"/>
+ <node id="2753131504" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9363028" lon="116.4090739"/>
+ <node id="2753131506" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9361867" lon="116.4090893"/>
+ <node id="2753131508" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9361950" lon="116.4095935"/>
+ <node id="2753131510" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9363465" lon="116.4095893"/>
+ <node id="2753131512" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9363488" lon="116.4097265"/>
+ <node id="2753131514" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9367399" lon="116.4097156"/>
+ <node id="2753131516" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9367363" lon="116.4094973"/>
+ <node id="2753131517" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9368236" lon="116.4094948"/>
+ <node id="2753131518" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9368289" lon="116.4098183"/>
+ <node id="2753131519" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9360627" lon="116.4098397"/>
+ <node id="2753131520" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:48Z" user="hanchao" uid="499500" lat="39.9360505" lon="116.4090932"/>
+ <node id="3706449523" visible="true" version="2" changeset="86658502" timestamp="2020-06-15T09:07:33Z" user="Hervé TUC" uid="922338" lat="39.9363702" lon="116.4109589">
+  <tag k="addr:housenumber" v="74-1"/>
+  <tag k="name" v="UCC"/>
+  <tag k="shop" v="bicycle"/>
+ </node>
+ <node id="5908913072" visible="true" version="1" changeset="62623616" timestamp="2018-09-15T22:56:19Z" user="Mape" uid="124265" lat="39.9369748" lon="116.4123790"/>
+ <node id="5908913073" visible="true" version="1" changeset="62623616" timestamp="2018-09-15T22:56:19Z" user="Mape" uid="124265" lat="39.9369586" lon="116.4117171"/>
+ <node id="5908913074" visible="true" version="1" changeset="62623616" timestamp="2018-09-15T22:56:19Z" user="Mape" uid="124265" lat="39.9371229" lon="116.4116819"/>
+ <node id="5908913075" visible="true" version="1" changeset="62623616" timestamp="2018-09-15T22:56:19Z" user="Mape" uid="124265" lat="39.9371658" lon="116.4116020"/>
+ <node id="5908913076" visible="true" version="1" changeset="62623616" timestamp="2018-09-15T22:56:19Z" user="Mape" uid="124265" lat="39.9371511" lon="116.4106285"/>
+ <node id="6907865085" visible="true" version="2" changeset="86658502" timestamp="2020-06-15T09:07:33Z" user="Hervé TUC" uid="922338" lat="39.9367997" lon="116.4109395">
+  <tag k="name" v="Niu ЭлектроБайки"/>
+  <tag k="shop" v="bicycle"/>
+ </node>
+ <node id="6907889585" visible="true" version="2" changeset="86658502" timestamp="2020-06-15T09:07:33Z" user="Hervé TUC" uid="922338" lat="39.9370820" lon="116.4109268">
+  <tag k="name" v="Cat Timberland около 500 юань"/>
+  <tag k="shop" v="shoes"/>
+ </node>
+ <node id="6907895185" visible="true" version="1" changeset="76082058" timestamp="2019-10-23T06:34:49Z" user="TONY ZIN" uid="10404065" lat="39.9370930" lon="116.4105220">
+  <tag k="name" v="ЭлектроБайки"/>
+  <tag k="shop" v="bicycle"/>
+ </node>
+ <node id="7580052375" visible="true" version="2" changeset="86658502" timestamp="2020-06-15T09:07:33Z" user="Hervé TUC" uid="922338" lat="39.9370528" lon="116.4109282">
+  <tag k="amenity" v="restaurant"/>
+ </node>
+ <node id="7580084848" visible="true" version="5" changeset="118058112" timestamp="2022-03-03T14:26:13Z" user="喵耳引力波" uid="14836070" lat="39.9364814" lon="116.4109538">
+  <tag k="brand" v="罗森"/>
+  <tag k="brand:en" v="LAWSON"/>
+  <tag k="brand:wikidata" v="Q1557223"/>
+  <tag k="brand:wikipedia" v="zh:羅森 (便利店)"/>
+  <tag k="brand:zh" v="罗森"/>
+  <tag k="name" v="罗森"/>
+  <tag k="name:en" v="LAOSON"/>
+  <tag k="name:zh" v="罗森"/>
+  <tag k="operator" v="罗森（中国）投资有限公司"/>
+  <tag k="shop" v="convenience"/>
+ </node>
+ <node id="7580087113" visible="true" version="2" changeset="86658502" timestamp="2020-06-15T09:07:33Z" user="Hervé TUC" uid="922338" lat="39.9362547" lon="116.4109640">
+  <tag k="shop" v="greengrocer"/>
+ </node>
+ <node id="9160201279" visible="true" version="1" changeset="112293225" timestamp="2021-10-09T09:18:42Z" user="bjliuxiao" uid="10706919" lat="39.9356907" lon="116.4107364"/>
+ <node id="9673906779" visible="true" version="1" changeset="119848409" timestamp="2022-04-18T09:40:57Z" user="Herman Lee" uid="6921384" lat="39.9384310" lon="116.4106286">
+  <tag k="bus" v="yes"/>
+  <tag k="name" v="北新桥路口南"/>
+  <tag k="name:zh" v="北新桥路口南"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="9673906782" visible="true" version="1" changeset="119848409" timestamp="2022-04-18T09:40:57Z" user="Herman Lee" uid="6921384" lat="39.9354407" lon="116.4107466">
+  <tag k="bus" v="yes"/>
+  <tag k="name" v="东四十二条"/>
+  <tag k="name:zh" v="东四十二条"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="9673906783" visible="true" version="1" changeset="119848409" timestamp="2022-04-18T09:40:57Z" user="Herman Lee" uid="6921384" lat="39.9340504" lon="116.4108190">
+  <tag k="bus" v="yes"/>
+  <tag k="name" v="东四十二条"/>
+  <tag k="name:zh" v="东四十二条"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="9673906787" visible="true" version="1" changeset="119848409" timestamp="2022-04-18T09:40:57Z" user="Herman Lee" uid="6921384" lat="39.9346572" lon="116.4107761">
+  <tag k="bus" v="yes"/>
+  <tag k="name" v="东四十二条"/>
+  <tag k="name:zh" v="东四十二条"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <way id="175425319" visible="true" version="11" changeset="120909433" timestamp="2022-05-13T00:13:33Z" user="z123456" uid="9395163">
+  <nd ref="1860131971"/>
+  <nd ref="9673906783"/>
+  <nd ref="340066217"/>
+  <nd ref="9673906787"/>
+  <nd ref="2056639669"/>
+  <nd ref="340066110"/>
+  <nd ref="342778311"/>
+  <nd ref="9673906782"/>
+  <nd ref="342777852"/>
+  <nd ref="9160201279"/>
+  <nd ref="269487648"/>
+  <nd ref="2751830670"/>
+  <nd ref="5908913076"/>
+  <nd ref="2056650537"/>
+  <nd ref="340064896"/>
+  <nd ref="733967235"/>
+  <nd ref="9673906779"/>
+  <nd ref="340254451"/>
+  <nd ref="90235958"/>
+  <tag k="highway" v="primary"/>
+  <tag k="int_name" v="Dongsi Beidajie"/>
+  <tag k="name" v="东四北大街"/>
+  <tag k="name:en" v="N. Dongsi Str"/>
+  <tag k="trolley_wire" v="yes"/>
+ </way>
+ <way id="270100963" visible="true" version="1" changeset="21383024" timestamp="2014-03-29T13:38:38Z" user="hanchao" uid="499500">
+  <nd ref="2751830669"/>
+  <nd ref="2751830670"/>
+  <tag k="highway" v="residential"/>
+ </way>
+ <way id="270270675" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:49Z" user="hanchao" uid="499500">
+  <nd ref="2753131467"/>
+  <nd ref="2753131470"/>
+  <nd ref="2753131472"/>
+  <nd ref="2753131474"/>
+  <nd ref="2753131476"/>
+  <nd ref="2753131478"/>
+  <nd ref="2753131467"/>
+  <tag k="building" v="commercial"/>
+  <tag k="name" v="天海商务大厦"/>
+ </way>
+ <way id="270270676" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:49Z" user="hanchao" uid="499500">
+  <nd ref="2753131480"/>
+  <nd ref="2753131482"/>
+  <nd ref="2753131484"/>
+  <nd ref="2753131486"/>
+  <nd ref="2753131488"/>
+  <nd ref="2753131496"/>
+  <nd ref="2753131498"/>
+  <nd ref="2753131500"/>
+  <nd ref="2753131502"/>
+  <nd ref="2753131504"/>
+  <nd ref="2753131480"/>
+  <tag k="amenity" v="parking"/>
+ </way>
+ <way id="270270677" visible="true" version="1" changeset="21394332" timestamp="2014-03-30T03:32:49Z" user="hanchao" uid="499500">
+  <nd ref="2753131506"/>
+  <nd ref="2753131508"/>
+  <nd ref="2753131510"/>
+  <nd ref="2753131512"/>
+  <nd ref="2753131514"/>
+  <nd ref="2753131516"/>
+  <nd ref="2753131517"/>
+  <nd ref="2753131518"/>
+  <nd ref="2753131519"/>
+  <nd ref="2753131520"/>
+  <nd ref="2753131506"/>
+  <tag k="building" v="commercial"/>
+  <tag k="name" v="天海商务大厦"/>
+ </way>
+ <way id="625847256" visible="true" version="2" changeset="86658502" timestamp="2020-06-15T09:07:35Z" user="Hervé TUC" uid="922338">
+  <nd ref="5908913072"/>
+  <nd ref="5908913073"/>
+  <nd ref="5908913074"/>
+  <nd ref="5908913075"/>
+  <nd ref="5908913076"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="板桥南巷"/>
+  <tag k="name:en" v="Banqiao South Lane"/>
+  <tag k="service" v="alley"/>
+ </way>
+ <relation id="1958854" visible="true" version="7" changeset="125724074" timestamp="2022-09-03T06:38:31Z" user="Herman Lee" uid="6921384">
+  <member type="relation" ref="2626843" role=""/>
+  <member type="relation" ref="14433849" role=""/>
+  <tag k="name" v="北京公交84路"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="operator" v="北京公交集团电车客运分公司"/>
+  <tag k="ref" v="84"/>
+  <tag k="route_master" v="bus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="1959112" visible="true" version="31" changeset="130337691" timestamp="2022-12-21T14:59:42Z" user="vimacs_hacks" uid="13417651">
+  <member type="node" ref="9702204947" role="platform_entry_only"/>
+  <member type="node" ref="9702193916" role="platform"/>
+  <member type="node" ref="9676638155" role="platform"/>
+  <member type="node" ref="9676631529" role="platform"/>
+  <member type="node" ref="9794635510" role="platform"/>
+  <member type="node" ref="9794635506" role="platform"/>
+  <member type="node" ref="9326306841" role="platform"/>
+  <member type="node" ref="9664667253" role="platform"/>
+  <member type="node" ref="9402126156" role="platform"/>
+  <member type="node" ref="9402089521" role="platform"/>
+  <member type="node" ref="9402081479" role="platform"/>
+  <member type="node" ref="9699785065" role="platform"/>
+  <member type="node" ref="9699784255" role="platform"/>
+  <member type="node" ref="9742777737" role="platform"/>
+  <member type="node" ref="9936709844" role="platform"/>
+  <member type="node" ref="9936709842" role="platform"/>
+  <member type="node" ref="9936659079" role="platform"/>
+  <member type="node" ref="9936659078" role="platform"/>
+  <member type="node" ref="9936705748" role="platform"/>
+  <member type="node" ref="9936705745" role="platform"/>
+  <member type="node" ref="9673906785" role="platform"/>
+  <member type="node" ref="9673906781" role="platform"/>
+  <member type="node" ref="9705435055" role="platform"/>
+  <member type="node" ref="9705429939" role="platform"/>
+  <member type="node" ref="9331300496" role="platform_exit_only"/>
+  <member type="way" ref="1107279347" role=""/>
+  <member type="way" ref="150538022" role=""/>
+  <member type="way" ref="162938194" role=""/>
+  <member type="way" ref="1055883602" role=""/>
+  <member type="way" ref="162938191" role=""/>
+  <member type="way" ref="155600362" role=""/>
+  <member type="way" ref="1057815784" role=""/>
+  <member type="way" ref="164954113" role=""/>
+  <member type="way" ref="144789911" role=""/>
+  <member type="way" ref="1123908095" role=""/>
+  <member type="way" ref="144821757" role=""/>
+  <member type="way" ref="144789880" role=""/>
+  <member type="way" ref="1092158981" role=""/>
+  <member type="way" ref="1066398178" role=""/>
+  <member type="way" ref="144821738" role=""/>
+  <member type="way" ref="144821758" role=""/>
+  <member type="way" ref="164954115" role=""/>
+  <member type="way" ref="165167570" role=""/>
+  <member type="way" ref="60495849" role=""/>
+  <member type="way" ref="144821744" role=""/>
+  <member type="way" ref="104246086" role=""/>
+  <member type="way" ref="147948025" role=""/>
+  <member type="way" ref="146712634" role=""/>
+  <member type="way" ref="146712550" role=""/>
+  <member type="way" ref="1066398166" role=""/>
+  <member type="way" ref="26295307" role=""/>
+  <member type="way" ref="1066877324" role=""/>
+  <member type="way" ref="28947752" role=""/>
+  <member type="way" ref="979798588" role=""/>
+  <member type="way" ref="141524681" role=""/>
+  <member type="way" ref="1066877313" role=""/>
+  <member type="way" ref="1115884118" role=""/>
+  <member type="way" ref="1066877323" role=""/>
+  <member type="way" ref="1115884123" role=""/>
+  <member type="way" ref="127464700" role=""/>
+  <member type="way" ref="723613425" role=""/>
+  <member type="way" ref="723613424" role=""/>
+  <member type="way" ref="723612803" role=""/>
+  <member type="way" ref="1081193430" role=""/>
+  <member type="way" ref="229763235" role=""/>
+  <member type="way" ref="723615455" role=""/>
+  <member type="way" ref="1105983763" role=""/>
+  <member type="way" ref="33613407" role=""/>
+  <member type="way" ref="1059317065" role=""/>
+  <member type="way" ref="246265573" role=""/>
+  <member type="way" ref="1115849033" role=""/>
+  <member type="way" ref="30152218" role=""/>
+  <member type="way" ref="173319135" role=""/>
+  <member type="way" ref="195186213" role=""/>
+  <member type="way" ref="195186212" role=""/>
+  <member type="way" ref="127843731" role=""/>
+  <member type="way" ref="127843727" role=""/>
+  <member type="way" ref="195186211" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="175425321" role=""/>
+  <member type="way" ref="1052625951" role=""/>
+  <member type="way" ref="727275042" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="26812214" role=""/>
+  <member type="way" ref="701332264" role=""/>
+  <member type="way" ref="701332262" role=""/>
+  <member type="way" ref="30186787" role=""/>
+  <member type="way" ref="26812207" role=""/>
+  <member type="way" ref="169439307" role=""/>
+  <member type="way" ref="1101866154" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="北京南站"/>
+  <tag k="name" v="106路：北京南站 -&gt; 东直门枢纽站"/>
+  <tag k="name:zh" v="106路：北京南站 -&gt; 东直门枢纽站"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 04:50-23:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="106"/>
+  <tag k="route" v="trolleybus"/>
+  <tag k="to" v="东直门枢纽站"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="1959113" visible="true" version="5" changeset="129186778" timestamp="2022-11-21T09:12:09Z" user="Herman Lee" uid="6921384">
+  <member type="relation" ref="1959112" role=""/>
+  <member type="relation" ref="1959135" role=""/>
+  <tag k="name" v="北京公交106路"/>
+  <tag k="name:zh" v="北京公交106路"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="operator" v="北京公交集团电车客运分公司"/>
+  <tag k="ref" v="106"/>
+  <tag k="route_master" v="trolleybus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="1959135" visible="true" version="33" changeset="129177223" timestamp="2022-11-21T03:27:33Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9331289241" role="platform_entry_only"/>
+  <member type="node" ref="9705429938" role="platform"/>
+  <member type="node" ref="9705435056" role="platform"/>
+  <member type="node" ref="9673906780" role="platform"/>
+  <member type="node" ref="9673906784" role="platform"/>
+  <member type="node" ref="9936705746" role="platform"/>
+  <member type="node" ref="9936705749" role="platform"/>
+  <member type="node" ref="9936705751" role="platform"/>
+  <member type="node" ref="9936659082" role="platform"/>
+  <member type="node" ref="2383241723" role="platform"/>
+  <member type="node" ref="9936709848" role="platform"/>
+  <member type="node" ref="9742777738" role="platform"/>
+  <member type="node" ref="9699784251" role="platform"/>
+  <member type="node" ref="9699785061" role="platform"/>
+  <member type="node" ref="9402081477" role="platform"/>
+  <member type="node" ref="9402089522" role="platform"/>
+  <member type="node" ref="9402126157" role="platform"/>
+  <member type="node" ref="2383146327" role="platform"/>
+  <member type="node" ref="9326306839" role="platform"/>
+  <member type="node" ref="9794635507" role="platform"/>
+  <member type="node" ref="9794635511" role="platform"/>
+  <member type="node" ref="9676631530" role="platform"/>
+  <member type="node" ref="9676631528" role="platform"/>
+  <member type="node" ref="9676631526" role="platform"/>
+  <member type="node" ref="1583042974" role="platform"/>
+  <member type="node" ref="9702204946" role="platform_exit_only"/>
+  <member type="way" ref="169439289" role=""/>
+  <member type="way" ref="169217516" role=""/>
+  <member type="way" ref="169445707" role=""/>
+  <member type="way" ref="161701296" role=""/>
+  <member type="way" ref="161701288" role=""/>
+  <member type="way" ref="161690425" role=""/>
+  <member type="way" ref="161701269" role=""/>
+  <member type="way" ref="30187078" role=""/>
+  <member type="way" ref="169204619" role=""/>
+  <member type="way" ref="30186783" role=""/>
+  <member type="way" ref="30186802" role=""/>
+  <member type="way" ref="169123339" role=""/>
+  <member type="way" ref="115714351" role=""/>
+  <member type="way" ref="701332263" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="727275043" role=""/>
+  <member type="way" ref="175425320" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="302881844" role=""/>
+  <member type="way" ref="127843740" role=""/>
+  <member type="way" ref="127843742" role=""/>
+  <member type="way" ref="1060946273" role=""/>
+  <member type="way" ref="195186214" role=""/>
+  <member type="way" ref="723617931" role=""/>
+  <member type="way" ref="173319089" role=""/>
+  <member type="way" ref="22036897" role=""/>
+  <member type="way" ref="571143714" role=""/>
+  <member type="way" ref="1052210026" role=""/>
+  <member type="way" ref="237008293" role=""/>
+  <member type="way" ref="146586710" role=""/>
+  <member type="way" ref="229763235" role=""/>
+  <member type="way" ref="1081193430" role=""/>
+  <member type="way" ref="723612803" role=""/>
+  <member type="way" ref="42371203" role=""/>
+  <member type="way" ref="172879420" role=""/>
+  <member type="way" ref="1058304042" role=""/>
+  <member type="way" ref="229763249" role=""/>
+  <member type="way" ref="1115884123" role=""/>
+  <member type="way" ref="1066877323" role=""/>
+  <member type="way" ref="1115884118" role=""/>
+  <member type="way" ref="1066877313" role=""/>
+  <member type="way" ref="141524681" role=""/>
+  <member type="way" ref="979798588" role=""/>
+  <member type="way" ref="1060440000" role=""/>
+  <member type="way" ref="1066877322" role=""/>
+  <member type="way" ref="141524710" role=""/>
+  <member type="way" ref="26295308" role=""/>
+  <member type="way" ref="173319143" role=""/>
+  <member type="way" ref="1060437305" role=""/>
+  <member type="way" ref="33614469" role=""/>
+  <member type="way" ref="1066398177" role=""/>
+  <member type="way" ref="60495754" role=""/>
+  <member type="way" ref="144800444" role=""/>
+  <member type="way" ref="150538054" role=""/>
+  <member type="way" ref="164952673" role=""/>
+  <member type="way" ref="953937734" role=""/>
+  <member type="way" ref="953937725" role=""/>
+  <member type="way" ref="150537996" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="东直门枢纽站"/>
+  <tag k="name" v="106路：东直门枢纽站 -&gt; 北京南站"/>
+  <tag k="name:zh" v="106路：东直门枢纽站 -&gt; 北京南站"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 04:50-23:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="106"/>
+  <tag k="route" v="trolleybus"/>
+  <tag k="to" v="北京南站"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="1960161" visible="true" version="47" changeset="128848943" timestamp="2022-11-13T14:13:02Z" user="vimacs_hacks" uid="13417651">
+  <member type="node" ref="9705435056" role="platform"/>
+  <member type="node" ref="9673906780" role="platform"/>
+  <member type="node" ref="9936705746" role="platform"/>
+  <member type="node" ref="9936705749" role="platform"/>
+  <member type="node" ref="9936705751" role="platform"/>
+  <member type="node" ref="9704799710" role="platform"/>
+  <member type="node" ref="9704800217" role="platform"/>
+  <member type="node" ref="9334235969" role="platform"/>
+  <member type="node" ref="9333255672" role="platform"/>
+  <member type="node" ref="9333223460" role="platform"/>
+  <member type="node" ref="9333207935" role="platform"/>
+  <member type="node" ref="10125901968" role="platform"/>
+  <member type="node" ref="6709005075" role="platform"/>
+  <member type="node" ref="9935698731" role="platform"/>
+  <member type="node" ref="9935698727" role="platform"/>
+  <member type="way" ref="30187078" role=""/>
+  <member type="way" ref="169204619" role=""/>
+  <member type="way" ref="30186783" role=""/>
+  <member type="way" ref="30186802" role=""/>
+  <member type="way" ref="169123339" role=""/>
+  <member type="way" ref="115714351" role=""/>
+  <member type="way" ref="701332263" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="727275043" role=""/>
+  <member type="way" ref="175425320" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="302881844" role=""/>
+  <member type="way" ref="127843740" role=""/>
+  <member type="way" ref="30042084" role=""/>
+  <member type="way" ref="127843745" role=""/>
+  <member type="way" ref="121782629" role=""/>
+  <member type="way" ref="173319092" role=""/>
+  <member type="way" ref="121782628" role=""/>
+  <member type="way" ref="121782630" role=""/>
+  <member type="way" ref="1055883592" role=""/>
+  <member type="way" ref="144821750" role=""/>
+  <member type="way" ref="168609622" role=""/>
+  <member type="way" ref="168609623" role=""/>
+  <member type="way" ref="1056894833" role=""/>
+  <member type="way" ref="237008306" role=""/>
+  <member type="way" ref="1058097339" role=""/>
+  <member type="way" ref="244247161" role=""/>
+  <member type="way" ref="244247159" role=""/>
+  <member type="way" ref="173221600" role=""/>
+  <member type="way" ref="173221581" role=""/>
+  <member type="way" ref="244247154" role=""/>
+  <member type="way" ref="121903976" role=""/>
+  <member type="way" ref="121903989" role=""/>
+  <member type="way" ref="121903988" role=""/>
+  <member type="way" ref="30152235" role=""/>
+  <member type="way" ref="173319089" role=""/>
+  <member type="way" ref="22036897" role=""/>
+  <member type="way" ref="571143714" role=""/>
+  <member type="way" ref="1052210026" role=""/>
+  <member type="way" ref="237008300" role=""/>
+  <member type="way" ref="146586723" role=""/>
+  <member type="way" ref="978001499" role=""/>
+  <member type="way" ref="237008295" role=""/>
+  <member type="way" ref="173323015" role=""/>
+  <member type="way" ref="33612467" role=""/>
+  <member type="way" ref="237008296" role=""/>
+  <member type="way" ref="164954106" role=""/>
+  <member type="way" ref="33612557" role=""/>
+  <member type="way" ref="1071049914" role=""/>
+  <member type="way" ref="1071049909" role=""/>
+  <member type="way" ref="127843730" role=""/>
+  <member type="way" ref="154860681" role=""/>
+  <member type="way" ref="127844299" role=""/>
+  <member type="way" ref="225935793" role=""/>
+  <member type="way" ref="162362277" role=""/>
+  <member type="way" ref="1071049906" role=""/>
+  <member type="way" ref="1071049928" role=""/>
+  <member type="way" ref="154865086" role=""/>
+  <member type="way" ref="127843736" role=""/>
+  <member type="way" ref="30834259" role=""/>
+  <member type="way" ref="154865087" role=""/>
+  <member type="way" ref="217107570" role=""/>
+  <member type="way" ref="154865088" role=""/>
+  <member type="way" ref="30834926" role=""/>
+  <member type="way" ref="156465481" role=""/>
+  <member type="way" ref="30065037" role=""/>
+  <member type="way" ref="1070843314" role=""/>
+  <member type="way" ref="169221930" role=""/>
+  <member type="way" ref="229775864" role=""/>
+  <member type="way" ref="200319988" role=""/>
+  <member type="way" ref="156453759" role=""/>
+  <member type="way" ref="1067065529" role=""/>
+  <member type="way" ref="723910483" role=""/>
+  <member type="way" ref="25109088" role=""/>
+  <member type="way" ref="169219998" role=""/>
+  <member type="way" ref="169219994" role=""/>
+  <member type="way" ref="175425301" role=""/>
+  <member type="way" ref="175598132" role=""/>
+  <member type="way" ref="169219992" role=""/>
+  <member type="way" ref="26812214" role=""/>
+  <member type="way" ref="701332264" role=""/>
+  <member type="way" ref="701332262" role=""/>
+  <member type="way" ref="30186787" role=""/>
+  <member type="way" ref="26812207" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="东直门"/>
+  <tag k="interval" v="20"/>
+  <tag k="name" v="夜10路内环：东直门 -&gt; 东直门"/>
+  <tag k="name:zh" v="夜10路内环：东直门 -&gt; 东直门"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 00:00-04:50,23:20-24:00"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="夜10内"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="东直门"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="西单商场;鼓楼"/>
+ </relation>
+ <relation id="1960162" visible="true" version="35" changeset="129177223" timestamp="2022-11-21T03:27:33Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9705435056" role="platform"/>
+  <member type="node" ref="9935698728" role="platform"/>
+  <member type="node" ref="9935698730" role="platform"/>
+  <member type="node" ref="6708968118" role="platform"/>
+  <member type="node" ref="6784236236" role="platform"/>
+  <member type="node" ref="2103119706" role="platform"/>
+  <member type="node" ref="9333233909" role="platform"/>
+  <member type="node" ref="9333243782" role="platform"/>
+  <member type="node" ref="9333223461" role="platform"/>
+  <member type="node" ref="2433565039" role="platform"/>
+  <member type="node" ref="9333274237" role="platform"/>
+  <member type="node" ref="9334235968" role="platform"/>
+  <member type="node" ref="9334235966" role="platform"/>
+  <member type="node" ref="9704799713" role="platform"/>
+  <member type="node" ref="9936659079" role="platform"/>
+  <member type="node" ref="9936659078" role="platform"/>
+  <member type="node" ref="9936705748" role="platform"/>
+  <member type="node" ref="9936705745" role="platform"/>
+  <member type="node" ref="9673906781" role="platform"/>
+  <member type="node" ref="9705429939" role="platform"/>
+  <member type="way" ref="30187078" role=""/>
+  <member type="way" ref="169204619" role=""/>
+  <member type="way" ref="30186783" role=""/>
+  <member type="way" ref="30186802" role=""/>
+  <member type="way" ref="169123339" role=""/>
+  <member type="way" ref="115714351" role=""/>
+  <member type="way" ref="701332263" role=""/>
+  <member type="way" ref="169219991" role=""/>
+  <member type="way" ref="25091622" role=""/>
+  <member type="way" ref="169219993" role=""/>
+  <member type="way" ref="175598133" role=""/>
+  <member type="way" ref="34104298" role=""/>
+  <member type="way" ref="723910038" role=""/>
+  <member type="way" ref="34104264" role=""/>
+  <member type="way" ref="200319985" role=""/>
+  <member type="way" ref="235270873" role=""/>
+  <member type="way" ref="229775861" role=""/>
+  <member type="way" ref="169221931" role=""/>
+  <member type="way" ref="34104265" role=""/>
+  <member type="way" ref="156465481" role=""/>
+  <member type="way" ref="30834926" role=""/>
+  <member type="way" ref="154865088" role=""/>
+  <member type="way" ref="217107570" role=""/>
+  <member type="way" ref="1061456423" role=""/>
+  <member type="way" ref="30834942" role=""/>
+  <member type="way" ref="141524749" role=""/>
+  <member type="way" ref="127843734" role=""/>
+  <member type="way" ref="30042374" role=""/>
+  <member type="way" ref="141524726" role=""/>
+  <member type="way" ref="190441563" role=""/>
+  <member type="way" ref="190438906" role=""/>
+  <member type="way" ref="154860683" role=""/>
+  <member type="way" ref="127844316" role=""/>
+  <member type="way" ref="141524736" role=""/>
+  <member type="way" ref="141524746" role=""/>
+  <member type="way" ref="1115884126" role=""/>
+  <member type="way" ref="194291838" role=""/>
+  <member type="way" ref="33612552" role=""/>
+  <member type="way" ref="141524692" role=""/>
+  <member type="way" ref="141524720" role=""/>
+  <member type="way" ref="1058259914" role=""/>
+  <member type="way" ref="1058259918" role=""/>
+  <member type="way" ref="33612559" role=""/>
+  <member type="way" ref="175226612" role=""/>
+  <member type="way" ref="238406331" role=""/>
+  <member type="way" ref="33612453" role=""/>
+  <member type="way" ref="1010952827" role=""/>
+  <member type="way" ref="144821732" role=""/>
+  <member type="way" ref="146586700" role=""/>
+  <member type="way" ref="1059317065" role=""/>
+  <member type="way" ref="246265573" role=""/>
+  <member type="way" ref="1115849033" role=""/>
+  <member type="way" ref="121903990" role=""/>
+  <member type="way" ref="184540882" role=""/>
+  <member type="way" ref="184540879" role=""/>
+  <member type="way" ref="723605570" role=""/>
+  <member type="way" ref="1106532377" role=""/>
+  <member type="way" ref="723606950" role=""/>
+  <member type="way" ref="121782628" role=""/>
+  <member type="way" ref="121782631" role=""/>
+  <member type="way" ref="168609625" role=""/>
+  <member type="way" ref="1056245577" role=""/>
+  <member type="way" ref="150594419" role=""/>
+  <member type="way" ref="168609626" role=""/>
+  <member type="way" ref="173319136" role=""/>
+  <member type="way" ref="127843727" role=""/>
+  <member type="way" ref="195186211" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="175425321" role=""/>
+  <member type="way" ref="1052625951" role=""/>
+  <member type="way" ref="727275042" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="26812214" role=""/>
+  <member type="way" ref="701332264" role=""/>
+  <member type="way" ref="701332262" role=""/>
+  <member type="way" ref="30186787" role=""/>
+  <member type="way" ref="26812207" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="东直门"/>
+  <tag k="interval" v="20"/>
+  <tag k="name" v="夜10路外环：东直门 -&gt; 东直门"/>
+  <tag k="name:zh" v="夜10路外环：东直门 -&gt; 东直门"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 00:00-04:50,23:20-24:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="夜10外"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="东直门"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="鼓楼;西单商场"/>
+ </relation>
+ <relation id="1960164" visible="true" version="4" changeset="120846193" timestamp="2022-05-11T15:13:21Z" user="vimacs_hacks" uid="13417651">
+  <member type="relation" ref="1960161" role=""/>
+  <member type="relation" ref="1960162" role=""/>
+  <tag k="name" v="北京公交夜10路"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="operator" v="北京公交集团第六客运分公司"/>
+  <tag k="ref" v="夜10"/>
+  <tag k="route_master" v="bus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="2162792" visible="true" version="17" changeset="129182432" timestamp="2022-11-21T07:08:11Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9327509919" role="platform_entry_only"/>
+  <member type="node" ref="9317034203" role="platform"/>
+  <member type="node" ref="4171179889" role="platform"/>
+  <member type="node" ref="9327598727" role="platform"/>
+  <member type="node" ref="9327650445" role="platform"/>
+  <member type="node" ref="6789475555" role="platform"/>
+  <member type="node" ref="9327681294" role="platform"/>
+  <member type="node" ref="9797817276" role="platform"/>
+  <member type="node" ref="9333199339" role="platform"/>
+  <member type="node" ref="9331631963" role="platform"/>
+  <member type="node" ref="9673906788" role="platform"/>
+  <member type="node" ref="9673906781" role="platform"/>
+  <member type="node" ref="9935698730" role="platform"/>
+  <member type="node" ref="6818813358" role="platform"/>
+  <member type="node" ref="1861798533" role="platform"/>
+  <member type="node" ref="9378344194" role="platform"/>
+  <member type="node" ref="9797817269" role="platform"/>
+  <member type="node" ref="9797859399" role="platform"/>
+  <member type="node" ref="9935637096" role="platform"/>
+  <member type="node" ref="7605918481" role="platform"/>
+  <member type="node" ref="7605917331" role="platform"/>
+  <member type="node" ref="7605942033" role="platform"/>
+  <member type="node" ref="7605966217" role="platform"/>
+  <member type="node" ref="7605985439" role="platform"/>
+  <member type="node" ref="9374916743" role="platform"/>
+  <member type="node" ref="7640244384" role="platform"/>
+  <member type="node" ref="7640238701" role="platform"/>
+  <member type="node" ref="9935482698" role="platform"/>
+  <member type="node" ref="9935482695" role="platform"/>
+  <member type="node" ref="9935637102" role="platform"/>
+  <member type="node" ref="9935637103" role="platform_exit_only"/>
+  <member type="way" ref="194283844" role=""/>
+  <member type="way" ref="128491123" role=""/>
+  <member type="way" ref="168609617" role=""/>
+  <member type="way" ref="4231223" role=""/>
+  <member type="way" ref="127843726" role=""/>
+  <member type="way" ref="175598131" role=""/>
+  <member type="way" ref="1069152822" role=""/>
+  <member type="way" ref="4843674" role=""/>
+  <member type="way" ref="173229518" role=""/>
+  <member type="way" ref="173229536" role=""/>
+  <member type="way" ref="30802356" role=""/>
+  <member type="way" ref="723906845" role=""/>
+  <member type="way" ref="616200096" role=""/>
+  <member type="way" ref="1115925830" role=""/>
+  <member type="way" ref="723910040" role=""/>
+  <member type="way" ref="723910042" role=""/>
+  <member type="way" ref="1115925829" role=""/>
+  <member type="way" ref="723910483" role=""/>
+  <member type="way" ref="25109088" role=""/>
+  <member type="way" ref="175425302" role=""/>
+  <member type="way" ref="9477031" role=""/>
+  <member type="way" ref="1052625951" role=""/>
+  <member type="way" ref="727275042" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="169219991" role=""/>
+  <member type="way" ref="25091622" role=""/>
+  <member type="way" ref="25091600" role=""/>
+  <member type="way" ref="1056898240" role=""/>
+  <member type="way" ref="42362228" role=""/>
+  <member type="way" ref="1056898241" role=""/>
+  <member type="way" ref="121399478" role=""/>
+  <member type="way" ref="121399187" role=""/>
+  <member type="way" ref="121399482" role=""/>
+  <member type="way" ref="1081193425" role=""/>
+  <member type="way" ref="121399472" role=""/>
+  <member type="way" ref="229610044" role=""/>
+  <member type="way" ref="1073361867" role=""/>
+  <member type="way" ref="121399476" role=""/>
+  <member type="way" ref="1097501358" role=""/>
+  <member type="way" ref="1055899084" role=""/>
+  <member type="way" ref="22759944" role=""/>
+  <member type="way" ref="159783239" role=""/>
+  <member type="way" ref="1066708140" role=""/>
+  <member type="way" ref="1073361864" role=""/>
+  <member type="way" ref="1084226879" role=""/>
+  <member type="way" ref="170628858" role=""/>
+  <member type="way" ref="1084226878" role=""/>
+  <member type="way" ref="121399174" role=""/>
+  <member type="way" ref="121399177" role=""/>
+  <member type="way" ref="167659655" role=""/>
+  <member type="way" ref="167659656" role=""/>
+  <member type="way" ref="42355005" role=""/>
+  <member type="way" ref="161460525" role=""/>
+  <member type="way" ref="161460526" role=""/>
+  <member type="way" ref="1084247372" role=""/>
+  <member type="way" ref="993404301" role=""/>
+  <member type="way" ref="1084247371" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="前门"/>
+  <tag k="name" v="82路：前门 -&gt; 国家体育场东"/>
+  <tag k="name:zh" v="82路：前门 -&gt; 国家体育场东"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 06:00-23:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="82"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="国家体育场东"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2162794" visible="true" version="5" changeset="124564581" timestamp="2022-08-06T14:20:53Z" user="Herman Lee" uid="6921384">
+  <member type="relation" ref="2162792" role=""/>
+  <member type="relation" ref="2236468" role=""/>
+  <tag k="name" v="北京公交82路"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="operator" v="北京公交集团电车客运分公司"/>
+  <tag k="ref" v="82"/>
+  <tag k="route_master" v="bus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="2236468" visible="true" version="16" changeset="125734374" timestamp="2022-09-03T11:56:22Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9935637104" role="platform_entry_only"/>
+  <member type="node" ref="9935637101" role="platform"/>
+  <member type="node" ref="9935482696" role="platform"/>
+  <member type="node" ref="9935482697" role="platform"/>
+  <member type="node" ref="9935482699" role="platform"/>
+  <member type="node" ref="7640257585" role="platform"/>
+  <member type="node" ref="9374916745" role="platform"/>
+  <member type="node" ref="9703026260" role="platform"/>
+  <member type="node" ref="7605966218" role="platform"/>
+  <member type="node" ref="9935637100" role="platform"/>
+  <member type="node" ref="7605917330" role="platform"/>
+  <member type="node" ref="7605918482" role="platform"/>
+  <member type="node" ref="9935698736" role="platform"/>
+  <member type="node" ref="9797859400" role="platform"/>
+  <member type="node" ref="9797859401" role="platform"/>
+  <member type="node" ref="1861798527" role="platform"/>
+  <member type="node" ref="6818813360" role="platform"/>
+  <member type="node" ref="9935698731" role="platform"/>
+  <member type="node" ref="9935698727" role="platform"/>
+  <member type="node" ref="9673906780" role="platform"/>
+  <member type="node" ref="9673906784" role="platform"/>
+  <member type="node" ref="9331631965" role="platform"/>
+  <member type="node" ref="9333199338" role="platform"/>
+  <member type="node" ref="9797817270" role="platform"/>
+  <member type="node" ref="9327681292" role="platform"/>
+  <member type="node" ref="9327681296" role="platform"/>
+  <member type="node" ref="8434004297" role="platform"/>
+  <member type="node" ref="9327598728" role="platform"/>
+  <member type="node" ref="9327598733" role="platform"/>
+  <member type="node" ref="9317006997" role="platform"/>
+  <member type="node" ref="9327509926" role="platform_exit_only"/>
+  <member type="way" ref="1084247370" role=""/>
+  <member type="way" ref="227131930" role=""/>
+  <member type="way" ref="227131928" role=""/>
+  <member type="way" ref="227131351" role=""/>
+  <member type="way" ref="145291249" role=""/>
+  <member type="way" ref="161460525" role=""/>
+  <member type="way" ref="161460524" role=""/>
+  <member type="way" ref="161466926" role=""/>
+  <member type="way" ref="1091587360" role=""/>
+  <member type="way" ref="1091587359" role=""/>
+  <member type="way" ref="227131929" role=""/>
+  <member type="way" ref="55885680" role=""/>
+  <member type="way" ref="33639453" role=""/>
+  <member type="way" ref="170628871" role=""/>
+  <member type="way" ref="1084226865" role=""/>
+  <member type="way" ref="227135617" role=""/>
+  <member type="way" ref="1066708136" role=""/>
+  <member type="way" ref="1066708143" role=""/>
+  <member type="way" ref="175210680" role=""/>
+  <member type="way" ref="175210675" role=""/>
+  <member type="way" ref="251329005" role=""/>
+  <member type="way" ref="227135623" role=""/>
+  <member type="way" ref="227135622" role=""/>
+  <member type="way" ref="227135624" role=""/>
+  <member type="way" ref="121399473" role=""/>
+  <member type="way" ref="121399479" role=""/>
+  <member type="way" ref="1055899088" role=""/>
+  <member type="way" ref="1055899086" role=""/>
+  <member type="way" ref="159794825" role=""/>
+  <member type="way" ref="42412030" role=""/>
+  <member type="way" ref="42412027" role=""/>
+  <member type="way" ref="227135625" role=""/>
+  <member type="way" ref="1067065531" role=""/>
+  <member type="way" ref="1067065532" role=""/>
+  <member type="way" ref="121399185" role=""/>
+  <member type="way" ref="121399477" role=""/>
+  <member type="way" ref="1084247368" role=""/>
+  <member type="way" ref="173308122" role=""/>
+  <member type="way" ref="42362228" role=""/>
+  <member type="way" ref="1056898240" role=""/>
+  <member type="way" ref="25091600" role=""/>
+  <member type="way" ref="169220002" role=""/>
+  <member type="way" ref="169219992" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="727275043" role=""/>
+  <member type="way" ref="30187665" role=""/>
+  <member type="way" ref="175425305" role=""/>
+  <member type="way" ref="34104298" role=""/>
+  <member type="way" ref="1067065528" role=""/>
+  <member type="way" ref="723910041" role=""/>
+  <member type="way" ref="723906845" role=""/>
+  <member type="way" ref="30802356" role=""/>
+  <member type="way" ref="173229536" role=""/>
+  <member type="way" ref="173229518" role=""/>
+  <member type="way" ref="175226609" role=""/>
+  <member type="way" ref="1015784061" role=""/>
+  <member type="way" ref="4231222" role=""/>
+  <member type="way" ref="675930560" role=""/>
+  <member type="way" ref="4908397" role=""/>
+  <member type="way" ref="128491120" role=""/>
+  <member type="way" ref="168609619" role=""/>
+  <member type="way" ref="1056011297" role=""/>
+  <member type="way" ref="1052210061" role=""/>
+  <member type="way" ref="168609614" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="国家体育场东"/>
+  <tag k="name" v="82路：国家体育场东 -&gt; 前门"/>
+  <tag k="name:zh" v="82路：国家体育场东 -&gt; 前门"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:00-22:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="82"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="前门"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2626843" visible="true" version="45" changeset="130229580" timestamp="2022-12-19T03:26:30Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9936827074" role="platform_entry_only"/>
+  <member type="node" ref="9325890767" role="platform"/>
+  <member type="node" ref="2056581690" role="platform"/>
+  <member type="node" ref="2056581688" role="platform"/>
+  <member type="node" ref="2056581683" role="platform"/>
+  <member type="node" ref="2056581686" role="platform"/>
+  <member type="node" ref="9936709850" role="platform"/>
+  <member type="node" ref="1836427356" role="platform"/>
+  <member type="node" ref="9936827073" role="platform"/>
+  <member type="node" ref="9673704306" role="platform"/>
+  <member type="node" ref="9673704299" role="platform"/>
+  <member type="node" ref="9673704298" role="platform"/>
+  <member type="node" ref="9398433280" role="platform"/>
+  <member type="node" ref="9936827071" role="platform"/>
+  <member type="node" ref="7715098639" role="platform"/>
+  <member type="node" ref="9399185066" role="platform"/>
+  <member type="node" ref="9699785065" role="platform"/>
+  <member type="node" ref="9699784255" role="platform"/>
+  <member type="node" ref="9669859252" role="platform"/>
+  <member type="node" ref="9742777737" role="platform"/>
+  <member type="node" ref="9742777742" role="platform"/>
+  <member type="node" ref="9936709844" role="platform"/>
+  <member type="node" ref="9936709841" role="platform"/>
+  <member type="node" ref="9936659079" role="platform"/>
+  <member type="node" ref="9936659078" role="platform"/>
+  <member type="node" ref="9936705748" role="platform"/>
+  <member type="node" ref="9936705745" role="platform"/>
+  <member type="node" ref="9673906785" role="platform"/>
+  <member type="node" ref="9673906781" role="platform"/>
+  <member type="node" ref="9673878282" role="platform"/>
+  <member type="node" ref="9673878281" role="platform"/>
+  <member type="node" ref="9676263979" role="platform"/>
+  <member type="node" ref="9676266424" role="platform"/>
+  <member type="node" ref="9676266421" role="platform"/>
+  <member type="node" ref="9676266417" role="platform"/>
+  <member type="node" ref="7640345386" role="platform"/>
+  <member type="node" ref="7640335016" role="platform"/>
+  <member type="node" ref="9676291496" role="platform"/>
+  <member type="node" ref="7640360222" role="platform"/>
+  <member type="node" ref="9676277751" role="platform"/>
+  <member type="node" ref="7640130645" role="platform"/>
+  <member type="node" ref="9701083837" role="platform"/>
+  <member type="node" ref="9701083835" role="platform_exit_only"/>
+  <member type="way" ref="1084373218" role=""/>
+  <member type="way" ref="1084373216" role=""/>
+  <member type="way" ref="865466518" role=""/>
+  <member type="way" ref="195168495" role=""/>
+  <member type="way" ref="195169217" role=""/>
+  <member type="way" ref="195181232" role=""/>
+  <member type="way" ref="42413309" role=""/>
+  <member type="way" ref="1084373212" role=""/>
+  <member type="way" ref="1084373209" role=""/>
+  <member type="way" ref="1123244603" role=""/>
+  <member type="way" ref="1123244604" role=""/>
+  <member type="way" ref="26403671" role=""/>
+  <member type="way" ref="241793319" role=""/>
+  <member type="way" ref="30052878" role=""/>
+  <member type="way" ref="1052616824" role=""/>
+  <member type="way" ref="1066398170" role=""/>
+  <member type="way" ref="165166429" role=""/>
+  <member type="way" ref="195181221" role=""/>
+  <member type="way" ref="1066420518" role=""/>
+  <member type="way" ref="26403680" role=""/>
+  <member type="way" ref="26403673" role=""/>
+  <member type="way" ref="173222726" role=""/>
+  <member type="way" ref="195181227" role=""/>
+  <member type="way" ref="195181215" role=""/>
+  <member type="way" ref="195181229" role=""/>
+  <member type="way" ref="175380432" role=""/>
+  <member type="way" ref="195183615" role=""/>
+  <member type="way" ref="195183614" role=""/>
+  <member type="way" ref="1052210030" role=""/>
+  <member type="way" ref="978688275" role=""/>
+  <member type="way" ref="173319053" role=""/>
+  <member type="way" ref="195185508" role=""/>
+  <member type="way" ref="1066681082" role=""/>
+  <member type="way" ref="1105983762" role=""/>
+  <member type="way" ref="33613407" role=""/>
+  <member type="way" ref="1059317065" role=""/>
+  <member type="way" ref="246265573" role=""/>
+  <member type="way" ref="1115849033" role=""/>
+  <member type="way" ref="30152218" role=""/>
+  <member type="way" ref="173319135" role=""/>
+  <member type="way" ref="195186213" role=""/>
+  <member type="way" ref="195186212" role=""/>
+  <member type="way" ref="127843731" role=""/>
+  <member type="way" ref="127843727" role=""/>
+  <member type="way" ref="195186211" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="175425321" role=""/>
+  <member type="way" ref="1052625951" role=""/>
+  <member type="way" ref="727275042" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="34104274" role=""/>
+  <member type="way" ref="1052625905" role=""/>
+  <member type="way" ref="195190338" role=""/>
+  <member type="way" ref="1072921790" role=""/>
+  <member type="way" ref="173224285" role=""/>
+  <member type="way" ref="229772537" role=""/>
+  <member type="way" ref="164439292" role=""/>
+  <member type="way" ref="164439287" role=""/>
+  <member type="way" ref="164439304" role=""/>
+  <member type="way" ref="195255436" role=""/>
+  <member type="way" ref="195255438" role=""/>
+  <member type="way" ref="229772536" role=""/>
+  <member type="way" ref="195255425" role=""/>
+  <member type="way" ref="169445710" role=""/>
+  <member type="way" ref="169445711" role=""/>
+  <member type="way" ref="195255434" role=""/>
+  <member type="way" ref="164439285" role=""/>
+  <member type="way" ref="164439306" role=""/>
+  <member type="way" ref="1016586126" role=""/>
+  <member type="way" ref="164439291" role=""/>
+  <member type="way" ref="195255441" role=""/>
+  <member type="way" ref="42357429" role=""/>
+  <member type="way" ref="1016586128" role=""/>
+  <member type="way" ref="195255412" role=""/>
+  <member type="way" ref="1117807207" role=""/>
+  <member type="way" ref="33638945" role=""/>
+  <member type="way" ref="1055624804" role=""/>
+  <member type="way" ref="176576421" role=""/>
+  <member type="way" ref="195255432" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="宋家庄枢纽站"/>
+  <tag k="name" v="84路：宋家庄枢纽站 -&gt; 惠新东桥西"/>
+  <tag k="name:zh" v="84路：宋家庄枢纽站 -&gt; 惠新东桥西"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:30-22:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="84"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="惠新东桥西"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2627143" visible="true" version="2" changeset="119848409" timestamp="2022-04-18T09:40:59Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9673906782" role="stop"/>
+  <member type="node" ref="9673906785" role="platform"/>
+  <member type="node" ref="9673906787" role="stop"/>
+  <member type="node" ref="9673906786" role="platform"/>
+  <member type="node" ref="9673906783" role="stop"/>
+  <member type="node" ref="9673906784" role="platform"/>
+  <member type="node" ref="9673906788" role="platform"/>
+  <member type="node" ref="2056639669" role="stop"/>
+  <tag k="name" v="东四十二条"/>
+  <tag k="name:zh" v="东四十二条"/>
+  <tag k="public_transport" v="stop_area"/>
+  <tag k="type" v="public_transport"/>
+ </relation>
+ <relation id="2627188" visible="true" version="2" changeset="119848409" timestamp="2022-04-18T09:40:59Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9673906781" role="platform"/>
+  <member type="node" ref="9673906780" role="platform"/>
+  <member type="node" ref="9673906779" role="stop"/>
+  <member type="node" ref="2056650537" role="stop"/>
+  <tag k="name" v="北新桥路口南"/>
+  <tag k="name:zh" v="北新桥路口南"/>
+  <tag k="public_transport" v="stop_area"/>
+  <tag k="type" v="public_transport"/>
+ </relation>
+ <relation id="3079824" visible="true" version="6" changeset="129186778" timestamp="2022-11-21T09:12:16Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="9398433281" role="platform_entry_only"/>
+  <member type="node" ref="9398478750" role="platform"/>
+  <member type="node" ref="9399131727" role="platform"/>
+  <member type="node" ref="7715064726" role="platform"/>
+  <member type="node" ref="7715084462" role="platform"/>
+  <member type="node" ref="9699784253" role="platform"/>
+  <member type="node" ref="9742777737" role="platform"/>
+  <member type="node" ref="9936709844" role="platform"/>
+  <member type="node" ref="9936709842" role="platform"/>
+  <member type="node" ref="9936659079" role="platform"/>
+  <member type="node" ref="9936659078" role="platform"/>
+  <member type="node" ref="9936705748" role="platform"/>
+  <member type="node" ref="9936705745" role="platform"/>
+  <member type="node" ref="9673906785" role="platform"/>
+  <member type="node" ref="9673906781" role="platform"/>
+  <member type="node" ref="9673878282" role="platform"/>
+  <member type="node" ref="9673878276" role="platform"/>
+  <member type="node" ref="9676263979" role="platform"/>
+  <member type="node" ref="9676266424" role="platform"/>
+  <member type="node" ref="9676266421" role="platform"/>
+  <member type="node" ref="10206756434" role="platform"/>
+  <member type="node" ref="10206756436" role="platform"/>
+  <member type="node" ref="10125879816" role="platform_exit_only"/>
+  <member type="way" ref="968291686" role=""/>
+  <member type="way" ref="195183614" role=""/>
+  <member type="way" ref="195183616" role=""/>
+  <member type="way" ref="195183611" role=""/>
+  <member type="way" ref="33613455" role=""/>
+  <member type="way" ref="146689273" role=""/>
+  <member type="way" ref="1105983762" role=""/>
+  <member type="way" ref="33613407" role=""/>
+  <member type="way" ref="1059317065" role=""/>
+  <member type="way" ref="246265573" role=""/>
+  <member type="way" ref="1115849033" role=""/>
+  <member type="way" ref="30152218" role=""/>
+  <member type="way" ref="173319135" role=""/>
+  <member type="way" ref="195186213" role=""/>
+  <member type="way" ref="195186212" role=""/>
+  <member type="way" ref="127843731" role=""/>
+  <member type="way" ref="127843727" role=""/>
+  <member type="way" ref="195186211" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="175425321" role=""/>
+  <member type="way" ref="1052625951" role=""/>
+  <member type="way" ref="727275042" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="34104274" role=""/>
+  <member type="way" ref="1052625905" role=""/>
+  <member type="way" ref="195190338" role=""/>
+  <member type="way" ref="1072921790" role=""/>
+  <member type="way" ref="173224285" role=""/>
+  <member type="way" ref="229772537" role=""/>
+  <member type="way" ref="164439292" role=""/>
+  <member type="way" ref="164439287" role=""/>
+  <member type="way" ref="164439304" role=""/>
+  <member type="way" ref="164439293" role=""/>
+  <member type="way" ref="1115932133" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="龙潭公园"/>
+  <tag k="name" v="116路：龙潭公园 -&gt; 城铁柳芳站"/>
+  <tag k="name:zh" v="116路：龙潭公园 -&gt; 城铁柳芳站"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:00-24:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="116"/>
+  <tag k="route" v="trolleybus"/>
+  <tag k="to" v="城铁柳芳站"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="3079825" visible="true" version="7" changeset="129186778" timestamp="2022-11-21T09:12:16Z" user="Herman Lee" uid="6921384">
+  <member type="relation" ref="3079824" role=""/>
+  <member type="relation" ref="3079831" role=""/>
+  <tag k="name" v="北京公交116路"/>
+  <tag k="name:zh" v="北京公交116路"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="operator" v="北京公交集团电车客运分公司"/>
+  <tag k="ref" v="116"/>
+  <tag k="route_master" v="trolleybus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="3079831" visible="true" version="6" changeset="129186778" timestamp="2022-11-21T09:12:16Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="10125901717" role="platform_entry_only"/>
+  <member type="node" ref="10206756435" role="platform"/>
+  <member type="node" ref="10206756433" role="platform"/>
+  <member type="node" ref="7640332089" role="platform"/>
+  <member type="node" ref="9676266422" role="platform"/>
+  <member type="node" ref="9676263978" role="platform"/>
+  <member type="node" ref="9673878278" role="platform"/>
+  <member type="node" ref="9673878284" role="platform"/>
+  <member type="node" ref="9673906780" role="platform"/>
+  <member type="node" ref="9673906784" role="platform"/>
+  <member type="node" ref="9936705746" role="platform"/>
+  <member type="node" ref="9936705749" role="platform"/>
+  <member type="node" ref="9936705751" role="platform"/>
+  <member type="node" ref="9936659082" role="platform"/>
+  <member type="node" ref="2383241723" role="platform"/>
+  <member type="node" ref="9936709848" role="platform"/>
+  <member type="node" ref="9742777738" role="platform"/>
+  <member type="node" ref="9699784251" role="platform"/>
+  <member type="node" ref="9699785061" role="platform"/>
+  <member type="node" ref="9399171304" role="platform"/>
+  <member type="node" ref="9399131719" role="platform"/>
+  <member type="node" ref="9398489953" role="platform"/>
+  <member type="node" ref="9398433278" role="platform_exit_only"/>
+  <member type="way" ref="1115932132" role=""/>
+  <member type="way" ref="1115932133" role=""/>
+  <member type="way" ref="164439293" role=""/>
+  <member type="way" ref="60110731" role=""/>
+  <member type="way" ref="195255439" role=""/>
+  <member type="way" ref="172877737" role=""/>
+  <member type="way" ref="172877738" role=""/>
+  <member type="way" ref="169123302" role=""/>
+  <member type="way" ref="195190345" role=""/>
+  <member type="way" ref="195190340" role=""/>
+  <member type="way" ref="173308108" role=""/>
+  <member type="way" ref="34104274" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="727275043" role=""/>
+  <member type="way" ref="175425320" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="302881844" role=""/>
+  <member type="way" ref="127843740" role=""/>
+  <member type="way" ref="127843742" role=""/>
+  <member type="way" ref="1060946273" role=""/>
+  <member type="way" ref="195186214" role=""/>
+  <member type="way" ref="723617931" role=""/>
+  <member type="way" ref="173319089" role=""/>
+  <member type="way" ref="22036897" role=""/>
+  <member type="way" ref="571143714" role=""/>
+  <member type="way" ref="1052210026" role=""/>
+  <member type="way" ref="237008293" role=""/>
+  <member type="way" ref="723615457" role=""/>
+  <member type="way" ref="1112708272" role=""/>
+  <member type="way" ref="1112708270" role=""/>
+  <member type="way" ref="1115850974" role=""/>
+  <member type="way" ref="30887845" role=""/>
+  <member type="way" ref="1052210022" role=""/>
+  <member type="way" ref="33613455" role=""/>
+  <member type="way" ref="195183613" role=""/>
+  <member type="way" ref="1052210021" role=""/>
+  <member type="way" ref="1018979916" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="城铁柳芳站"/>
+  <tag k="name" v="116路：地铁柳芳站 -&gt; 龙潭公园"/>
+  <tag k="name:zh" v="116路：地铁柳芳站 -&gt; 龙潭公园"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:00-24:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="116"/>
+  <tag k="route" v="trolleybus"/>
+  <tag k="to" v="龙潭公园"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="14050460" visible="true" version="15" changeset="130563754" timestamp="2022-12-27T16:03:07Z" user="vimacs_hacks" uid="13417651">
+  <member type="node" ref="9676325169" role="platform_entry_only"/>
+  <member type="node" ref="7597583351" role="platform"/>
+  <member type="node" ref="4449101058" role="platform"/>
+  <member type="node" ref="9676351686" role="platform"/>
+  <member type="node" ref="9676351689" role="platform"/>
+  <member type="node" ref="9676351693" role="platform"/>
+  <member type="node" ref="2383212971" role="platform"/>
+  <member type="node" ref="9676311495" role="platform"/>
+  <member type="node" ref="7640360221" role="platform"/>
+  <member type="node" ref="9676257762" role="platform"/>
+  <member type="node" ref="9676257766" role="platform"/>
+  <member type="node" ref="7640345388" role="platform"/>
+  <member type="node" ref="9676266422" role="platform"/>
+  <member type="node" ref="9676263978" role="platform"/>
+  <member type="node" ref="9673878278" role="platform"/>
+  <member type="node" ref="9673878280" role="platform"/>
+  <member type="node" ref="9673878284" role="platform"/>
+  <member type="node" ref="9673906786" role="platform"/>
+  <member type="node" ref="9331631965" role="platform"/>
+  <member type="node" ref="9333199338" role="platform"/>
+  <member type="node" ref="2103119706" role="platform"/>
+  <member type="node" ref="9333233909" role="platform"/>
+  <member type="node" ref="9333243782" role="platform"/>
+  <member type="node" ref="9333223461" role="platform"/>
+  <member type="node" ref="2433565039" role="platform"/>
+  <member type="node" ref="9333274238" role="platform"/>
+  <member type="node" ref="9334235968" role="platform"/>
+  <member type="node" ref="9334250996" role="platform"/>
+  <member type="node" ref="9334250988" role="platform"/>
+  <member type="node" ref="9334248648" role="platform"/>
+  <member type="node" ref="9336524150" role="platform"/>
+  <member type="node" ref="9336570860" role="platform"/>
+  <member type="node" ref="9336578982" role="platform"/>
+  <member type="node" ref="9336578985" role="platform"/>
+  <member type="node" ref="9673762409" role="platform"/>
+  <member type="node" ref="9673762415" role="platform_exit_only"/>
+  <member type="way" ref="1052625946" role=""/>
+  <member type="way" ref="1052625947" role=""/>
+  <member type="way" ref="1052625911" role=""/>
+  <member type="way" ref="170244843" role=""/>
+  <member type="way" ref="169620683" role=""/>
+  <member type="way" ref="42355292" role=""/>
+  <member type="way" ref="26428250" role=""/>
+  <member type="way" ref="1052625908" role=""/>
+  <member type="way" ref="187024623" role=""/>
+  <member type="way" ref="176576415" role=""/>
+  <member type="way" ref="1055624802" role=""/>
+  <member type="way" ref="229772535" role=""/>
+  <member type="way" ref="1117807207" role=""/>
+  <member type="way" ref="195255412" role=""/>
+  <member type="way" ref="1123073287" role=""/>
+  <member type="way" ref="1016586127" role=""/>
+  <member type="way" ref="1016586134" role=""/>
+  <member type="way" ref="1016586133" role=""/>
+  <member type="way" ref="164439306" role=""/>
+  <member type="way" ref="164439289" role=""/>
+  <member type="way" ref="42502416" role=""/>
+  <member type="way" ref="1123073282" role=""/>
+  <member type="way" ref="195255437" role=""/>
+  <member type="way" ref="169123346" role=""/>
+  <member type="way" ref="195255427" role=""/>
+  <member type="way" ref="169123347" role=""/>
+  <member type="way" ref="195255435" role=""/>
+  <member type="way" ref="195255439" role=""/>
+  <member type="way" ref="172877737" role=""/>
+  <member type="way" ref="172877738" role=""/>
+  <member type="way" ref="169123302" role=""/>
+  <member type="way" ref="195190345" role=""/>
+  <member type="way" ref="195190340" role=""/>
+  <member type="way" ref="173308108" role=""/>
+  <member type="way" ref="34104274" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="727275043" role=""/>
+  <member type="way" ref="30187665" role=""/>
+  <member type="way" ref="175425305" role=""/>
+  <member type="way" ref="34104298" role=""/>
+  <member type="way" ref="723910038" role=""/>
+  <member type="way" ref="34104264" role=""/>
+  <member type="way" ref="200319985" role=""/>
+  <member type="way" ref="235270873" role=""/>
+  <member type="way" ref="229775861" role=""/>
+  <member type="way" ref="169221931" role=""/>
+  <member type="way" ref="34104265" role=""/>
+  <member type="way" ref="156465481" role=""/>
+  <member type="way" ref="99695994" role=""/>
+  <member type="way" ref="162395729" role=""/>
+  <member type="way" ref="162395726" role=""/>
+  <member type="way" ref="160093313" role=""/>
+  <member type="way" ref="162395725" role=""/>
+  <member type="way" ref="1125221263" role=""/>
+  <member type="way" ref="160093314" role=""/>
+  <member type="way" ref="1125221267" role=""/>
+  <member type="way" ref="1125221268" role=""/>
+  <member type="way" ref="1067089853" role=""/>
+  <member type="way" ref="30065014" role=""/>
+  <member type="way" ref="1125221266" role=""/>
+  <member type="way" ref="29422230" role=""/>
+  <member type="way" ref="1072576046" role=""/>
+  <member type="way" ref="1072576146" role=""/>
+  <member type="way" ref="199907397" role=""/>
+  <member type="way" ref="199906407" role=""/>
+  <member type="way" ref="160093310" role=""/>
+  <member type="way" ref="1011986515" role=""/>
+  <member type="way" ref="1011189569" role=""/>
+  <member type="way" ref="1055371424" role=""/>
+  <member type="way" ref="199907395" role=""/>
+  <member type="way" ref="1058236538" role=""/>
+  <member type="way" ref="23351581" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="小营公交场站"/>
+  <tag k="name" v="13路：小营公交场站 -&gt; 西城三里河"/>
+  <tag k="name:zh" v="13路：小营公交场站 -&gt; 西城三里河"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:00-23:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="13"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="西城三里河"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="14050461" visible="true" version="18" changeset="130563754" timestamp="2022-12-27T16:03:07Z" user="vimacs_hacks" uid="13417651">
+  <member type="node" ref="9673762412" role="platform_entry_only"/>
+  <member type="node" ref="9673762410" role="platform"/>
+  <member type="node" ref="9336578986" role="platform"/>
+  <member type="node" ref="9336604447" role="platform"/>
+  <member type="node" ref="9336570861" role="platform"/>
+  <member type="node" ref="9336475815" role="platform"/>
+  <member type="node" ref="9334248646" role="platform"/>
+  <member type="node" ref="9334248650" role="platform"/>
+  <member type="node" ref="9334235961" role="platform"/>
+  <member type="node" ref="9334235969" role="platform"/>
+  <member type="node" ref="9333274239" role="platform"/>
+  <member type="node" ref="9333255753" role="platform"/>
+  <member type="node" ref="9333223460" role="platform"/>
+  <member type="node" ref="9333243779" role="platform"/>
+  <member type="node" ref="9333233912" role="platform"/>
+  <member type="node" ref="9333207935" role="platform"/>
+  <member type="node" ref="9333199339" role="platform"/>
+  <member type="node" ref="9331631963" role="platform"/>
+  <member type="node" ref="9673906785" role="platform"/>
+  <member type="node" ref="9673878282" role="platform"/>
+  <member type="node" ref="9673878281" role="platform"/>
+  <member type="node" ref="9673878276" role="platform"/>
+  <member type="node" ref="9676263979" role="platform"/>
+  <member type="node" ref="9676266424" role="platform"/>
+  <member type="node" ref="9676266418" role="platform"/>
+  <member type="node" ref="9676214715" role="platform"/>
+  <member type="node" ref="7640335016" role="platform"/>
+  <member type="node" ref="7640345962" role="platform"/>
+  <member type="node" ref="9676277755" role="platform"/>
+  <member type="node" ref="4289827670" role="platform"/>
+  <member type="node" ref="2383212968" role="platform"/>
+  <member type="node" ref="9676351695" role="platform"/>
+  <member type="node" ref="4449104424" role="platform"/>
+  <member type="node" ref="7545512958" role="platform"/>
+  <member type="node" ref="4449101057" role="platform"/>
+  <member type="node" ref="7597583352" role="platform"/>
+  <member type="node" ref="9676325170" role="platform_exit_only"/>
+  <member type="way" ref="941843697" role=""/>
+  <member type="way" ref="1070592700" role=""/>
+  <member type="way" ref="1011189564" role=""/>
+  <member type="way" ref="1052625904" role=""/>
+  <member type="way" ref="199907395" role=""/>
+  <member type="way" ref="1055371424" role=""/>
+  <member type="way" ref="1011189569" role=""/>
+  <member type="way" ref="1011986515" role=""/>
+  <member type="way" ref="160093306" role=""/>
+  <member type="way" ref="249226407" role=""/>
+  <member type="way" ref="241451860" role=""/>
+  <member type="way" ref="1125221264" role=""/>
+  <member type="way" ref="30065019" role=""/>
+  <member type="way" ref="30065021" role=""/>
+  <member type="way" ref="1067089846" role=""/>
+  <member type="way" ref="236220795" role=""/>
+  <member type="way" ref="1061414793" role=""/>
+  <member type="way" ref="162395732" role=""/>
+  <member type="way" ref="1061414792" role=""/>
+  <member type="way" ref="160093312" role=""/>
+  <member type="way" ref="162395724" role=""/>
+  <member type="way" ref="162395727" role=""/>
+  <member type="way" ref="156465481" role=""/>
+  <member type="way" ref="30065037" role=""/>
+  <member type="way" ref="1070843314" role=""/>
+  <member type="way" ref="169221930" role=""/>
+  <member type="way" ref="229775864" role=""/>
+  <member type="way" ref="200319988" role=""/>
+  <member type="way" ref="156453759" role=""/>
+  <member type="way" ref="1067065529" role=""/>
+  <member type="way" ref="723910483" role=""/>
+  <member type="way" ref="25109088" role=""/>
+  <member type="way" ref="175425302" role=""/>
+  <member type="way" ref="9477031" role=""/>
+  <member type="way" ref="1052625951" role=""/>
+  <member type="way" ref="727275042" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="34104274" role=""/>
+  <member type="way" ref="1052625905" role=""/>
+  <member type="way" ref="195190338" role=""/>
+  <member type="way" ref="1072921790" role=""/>
+  <member type="way" ref="173224285" role=""/>
+  <member type="way" ref="229772537" role=""/>
+  <member type="way" ref="164439292" role=""/>
+  <member type="way" ref="164439287" role=""/>
+  <member type="way" ref="164439304" role=""/>
+  <member type="way" ref="195255436" role=""/>
+  <member type="way" ref="195255438" role=""/>
+  <member type="way" ref="229772536" role=""/>
+  <member type="way" ref="195255425" role=""/>
+  <member type="way" ref="169445710" role=""/>
+  <member type="way" ref="169445711" role=""/>
+  <member type="way" ref="195255434" role=""/>
+  <member type="way" ref="164439285" role=""/>
+  <member type="way" ref="164439306" role=""/>
+  <member type="way" ref="1016586126" role=""/>
+  <member type="way" ref="164439291" role=""/>
+  <member type="way" ref="195255441" role=""/>
+  <member type="way" ref="42357429" role=""/>
+  <member type="way" ref="1016586128" role=""/>
+  <member type="way" ref="195255412" role=""/>
+  <member type="way" ref="1117807207" role=""/>
+  <member type="way" ref="229772535" role=""/>
+  <member type="way" ref="1055624802" role=""/>
+  <member type="way" ref="176576415" role=""/>
+  <member type="way" ref="23892301" role=""/>
+  <member type="way" ref="41656993" role=""/>
+  <member type="way" ref="169620674" role=""/>
+  <member type="way" ref="169620682" role=""/>
+  <member type="way" ref="169620660" role=""/>
+  <member type="way" ref="1052625949" role=""/>
+  <member type="way" ref="169620684" role=""/>
+  <member type="way" ref="170244816" role=""/>
+  <member type="way" ref="1052625948" role=""/>
+  <member type="way" ref="1052625912" role=""/>
+  <member type="way" ref="1052625947" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="西城三里河"/>
+  <tag k="name" v="13路：西城三里河 -&gt; 小营公交场站"/>
+  <tag k="name:zh" v="13路：西城三里河 -&gt; 小营公交场站"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:00-23:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="13"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="小营公交场站"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="14050464" visible="true" version="3" changeset="124851483" timestamp="2022-08-13T12:30:12Z" user="快乐的老鼠宝宝" uid="9403945">
+  <member type="relation" ref="14050461" role=""/>
+  <member type="relation" ref="14050460" role=""/>
+  <tag k="name" v="北京公交13路"/>
+  <tag k="name:zh" v="北京公交13路"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="ref" v="13"/>
+  <tag k="route_master" v="bus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="14433849" visible="true" version="5" changeset="130204635" timestamp="2022-12-18T08:03:22Z" user="Herman Lee" uid="6921384">
+  <member type="node" ref="2383211789" role="platform_entry_only"/>
+  <member type="node" ref="9676311496" role="platform"/>
+  <member type="node" ref="7640360221" role="platform"/>
+  <member type="node" ref="7640335017" role="platform"/>
+  <member type="node" ref="9676257765" role="platform"/>
+  <member type="node" ref="7640345388" role="platform"/>
+  <member type="node" ref="7640332089" role="platform"/>
+  <member type="node" ref="9676266422" role="platform"/>
+  <member type="node" ref="9676263978" role="platform"/>
+  <member type="node" ref="9673878278" role="platform"/>
+  <member type="node" ref="9673878280" role="platform"/>
+  <member type="node" ref="9673878284" role="platform"/>
+  <member type="node" ref="9673906780" role="platform"/>
+  <member type="node" ref="9673906784" role="platform"/>
+  <member type="node" ref="9936705746" role="platform"/>
+  <member type="node" ref="9936705749" role="platform"/>
+  <member type="node" ref="9936705751" role="platform"/>
+  <member type="node" ref="9936659082" role="platform"/>
+  <member type="node" ref="9936659087" role="platform"/>
+  <member type="node" ref="9936709847" role="platform"/>
+  <member type="node" ref="9742777741" role="platform"/>
+  <member type="node" ref="9742777736" role="platform"/>
+  <member type="node" ref="9669859250" role="platform"/>
+  <member type="node" ref="9699784251" role="platform"/>
+  <member type="node" ref="9699785061" role="platform"/>
+  <member type="node" ref="9399160595" role="platform"/>
+  <member type="node" ref="9936827070" role="platform"/>
+  <member type="node" ref="9398433279" role="platform"/>
+  <member type="node" ref="2056594337" role="platform"/>
+  <member type="node" ref="9673704300" role="platform"/>
+  <member type="node" ref="9673704305" role="platform"/>
+  <member type="node" ref="9936827072" role="platform"/>
+  <member type="node" ref="2056581692" role="platform"/>
+  <member type="node" ref="9936827069" role="platform"/>
+  <member type="node" ref="1836427265" role="platform"/>
+  <member type="node" ref="2056581684" role="platform"/>
+  <member type="node" ref="2056581689" role="platform"/>
+  <member type="node" ref="2056581691" role="platform"/>
+  <member type="node" ref="9325934739" role="platform"/>
+  <member type="node" ref="9936827075" role="platform_exit_only"/>
+  <member type="way" ref="1084373208" role=""/>
+  <member type="way" ref="195255415" role=""/>
+  <member type="way" ref="1055624802" role=""/>
+  <member type="way" ref="229772535" role=""/>
+  <member type="way" ref="1117807207" role=""/>
+  <member type="way" ref="195255412" role=""/>
+  <member type="way" ref="1123073287" role=""/>
+  <member type="way" ref="1016586127" role=""/>
+  <member type="way" ref="1016586134" role=""/>
+  <member type="way" ref="1016586133" role=""/>
+  <member type="way" ref="164439306" role=""/>
+  <member type="way" ref="164439289" role=""/>
+  <member type="way" ref="42502416" role=""/>
+  <member type="way" ref="1123073282" role=""/>
+  <member type="way" ref="195255437" role=""/>
+  <member type="way" ref="169123346" role=""/>
+  <member type="way" ref="195255427" role=""/>
+  <member type="way" ref="169123347" role=""/>
+  <member type="way" ref="195255435" role=""/>
+  <member type="way" ref="195255439" role=""/>
+  <member type="way" ref="172877737" role=""/>
+  <member type="way" ref="172877738" role=""/>
+  <member type="way" ref="169123302" role=""/>
+  <member type="way" ref="195190345" role=""/>
+  <member type="way" ref="195190340" role=""/>
+  <member type="way" ref="173308108" role=""/>
+  <member type="way" ref="34104274" role=""/>
+  <member type="way" ref="169220001" role=""/>
+  <member type="way" ref="175425319" role=""/>
+  <member type="way" ref="727275043" role=""/>
+  <member type="way" ref="175425320" role=""/>
+  <member type="way" ref="131710750" role=""/>
+  <member type="way" ref="195187468" role=""/>
+  <member type="way" ref="229775895" role=""/>
+  <member type="way" ref="25109457" role=""/>
+  <member type="way" ref="723293438" role=""/>
+  <member type="way" ref="302881844" role=""/>
+  <member type="way" ref="127843740" role=""/>
+  <member type="way" ref="127843742" role=""/>
+  <member type="way" ref="1060946273" role=""/>
+  <member type="way" ref="195186214" role=""/>
+  <member type="way" ref="723617931" role=""/>
+  <member type="way" ref="173319089" role=""/>
+  <member type="way" ref="22036897" role=""/>
+  <member type="way" ref="571143714" role=""/>
+  <member type="way" ref="1052210026" role=""/>
+  <member type="way" ref="237008293" role=""/>
+  <member type="way" ref="723615457" role=""/>
+  <member type="way" ref="1105983760" role=""/>
+  <member type="way" ref="1017722456" role=""/>
+  <member type="way" ref="173319050" role=""/>
+  <member type="way" ref="978688274" role=""/>
+  <member type="way" ref="1052210021" role=""/>
+  <member type="way" ref="175380431" role=""/>
+  <member type="way" ref="195181210" role=""/>
+  <member type="way" ref="195181225" role=""/>
+  <member type="way" ref="195181223" role=""/>
+  <member type="way" ref="26403681" role=""/>
+  <member type="way" ref="26403682" role=""/>
+  <member type="way" ref="1066398169" role=""/>
+  <member type="way" ref="1066420507" role=""/>
+  <member type="way" ref="26403675" role=""/>
+  <member type="way" ref="173222749" role=""/>
+  <member type="way" ref="165166418" role=""/>
+  <member type="way" ref="30052881" role=""/>
+  <member type="way" ref="240521831" role=""/>
+  <member type="way" ref="1084373206" role=""/>
+  <member type="way" ref="42413309" role=""/>
+  <member type="way" ref="195181232" role=""/>
+  <member type="way" ref="195169217" role=""/>
+  <member type="way" ref="195168495" role=""/>
+  <member type="way" ref="1084373204" role=""/>
+  <member type="way" ref="1084373202" role=""/>
+  <member type="way" ref="1084373201" role=""/>
+  <member type="way" ref="1084373219" role=""/>
+  <tag k="fee" v="yes"/>
+  <tag k="from" v="惠新东桥南"/>
+  <tag k="name" v="84路：惠新东桥南 -&gt; 宋家庄枢纽站"/>
+  <tag k="name:zh" v="84路：惠新东桥南 -&gt; 宋家庄枢纽站"/>
+  <tag k="network" v="北京公交"/>
+  <tag k="network:en" v="Beijing Public Transport"/>
+  <tag k="network:wikidata" v="Q4881181"/>
+  <tag k="network:wikipedia" v="zh:北京公交"/>
+  <tag k="network:zh" v="北京公交"/>
+  <tag k="opening_hours" v="Mo-Su 05:30-22:00"/>
+  <tag k="payment:alipay" v="yes"/>
+  <tag k="payment:cash" v="yes"/>
+  <tag k="payment:china_t-union" v="yes"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:ic" v="yes"/>
+  <tag k="payment:unionpay" v="yes"/>
+  <tag k="payment:wechat" v="yes"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="84"/>
+  <tag k="route" v="bus"/>
+  <tag k="to" v="宋家庄枢纽站"/>
+  <tag k="type" v="route"/>
+ </relation>
+</osm>

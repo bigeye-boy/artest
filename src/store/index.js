@@ -16,5 +16,25 @@ export const useGlobalState = createGlobalState(() => {
     centerPoi.value = value;
   }
 
-  return { directions, setDir, centerPoi, setCenterPoi };
+  const popupState = ref({
+    show: false,
+    info: {
+      img: "/src/assets/image/info.jpg",
+      name: "",
+      detail: "",
+    },
+  });
+
+  function setPopupState(value) {
+    popupState.value = { ...popupState.value, ...value };
+  }
+
+  return {
+    directions,
+    setDir,
+    centerPoi,
+    setCenterPoi,
+    popupState,
+    setPopupState,
+  };
 });
