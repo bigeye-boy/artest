@@ -2,22 +2,13 @@
 import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { useGlobalState } from '@/store'
 import pointList from '/public/data/poi.json'
-console.log(pointList);
+import { useEventBus } from '@vueuse/core'
+const { on } = useEventBus('gps-update')
 const store = useGlobalState()
 const modalRef = ref(null)
 onMounted(() => {
-    // document.querySelector('[gps-new-entity-place]').addEventListener('gps-entity-place-update-position', (payload) => {
-
-    //     // alert(`${v} meter`);
-    //     console.log('gps-new-entity-place', payload.detail);
-    // });
-    let cameraRef = document.querySelector('#cameraRef')
-    cameraRef.addEventListener('gps-camera-update-position', (payload) => {
-        // console.log(cameraRef.object3D.position);
-        // console.log(placeRefs.value);
-        console.log('payload', payload.detail);
-        let camera = document.querySelector('#cameraRef');
-        let cameraPosition = camera.object3D.position;
+    on((message) => {
+        let cameraPosition = message.target.object3D.position;
         placeRefs.value.forEach(item => {
             let markerPosition = item.object3D.position;
             let distance = cameraPosition.distanceTo(markerPosition)
@@ -35,8 +26,7 @@ onMounted(() => {
                 item.querySelector('.dirCircle').setAttribute("color", '#fff')
             }
         })
-
-    });
+    })
 })
 const placeRefs = ref([])
 const setPlaceRef = (el) => {
@@ -48,6 +38,7 @@ const clickPoint = (e, info) => {
     }
     store.setPopupState({
         show: true,
+        type: '1',
         info: {
             img: info.placeImg,
             name: info.name,

@@ -4,30 +4,15 @@
 arjs-look-controls="smoothingFactor: 0.1" 减少摇动效果 -->
 <script setup>
 import { onMounted, ref, watch } from 'vue';
-
-// const props = defineProps({
-//     center: Array
-// })
-// 公司： 39.937439，116.410759
-const lat = ref(36);
-const lng = ref(114)
+import { useEventBus } from '@vueuse/core'
+const { emit } = useEventBus('gps-update')
 onMounted(() => {
-    // document.querySelector('#cameraRef').addEventListener('gps-camera-update-position', (payload) => {
-
-    //     console.log(payload.detail);
-    // });
+    let cameraRef = document.querySelector('#cameraRef')
+    cameraRef.addEventListener('gps-camera-update-position', (payload) => {
+        console.log(payload.detail);
+        emit(payload)
+    });
 })
-// watch(lat, (oldval, newval) => {
-//     document.querySelector('#cameraRef').setAttribute('gps-projected-camera', {
-//         simulateLatitude: newval
-//     })
-//     console.log(document.querySelector('#cameraRef').getAttribute('gps-projected-camera'));
-// })
-// watch(lng, (oldval, newval) => {
-//     document.querySelector('#cameraRef').setAttribute('gps-projected-camera', {
-//         simulateLongitude: newval
-//     })
-// })
 </script>
 <template>
     <!-- simulateLatitude:${lat};simulateLongitude:${lng}; -->

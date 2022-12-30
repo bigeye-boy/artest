@@ -18,6 +18,7 @@ export const useGlobalState = createGlobalState(() => {
 
   const popupState = ref({
     show: false,
+    type: "1",
     info: {
       img: "/src/assets/image/info.jpg",
       name: "",

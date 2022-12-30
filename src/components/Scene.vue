@@ -14,6 +14,7 @@ import Nft from './Nft.vue'
 import Points from './Points.vue'
 import Directions from './Directions.vue'
 import Place from './Place.vue'
+import Coupon from './Coupon.vue'
 import Mind from './Mind.vue'
 import Panel from './Panel.vue'
 
@@ -33,9 +34,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
     location.reload()
 })
-const clickImg2 = (e) => {
-    console.log(e);
-}
 AFRAME.registerComponent('clicker', {
     init: function () {
         this.el.addEventListener('click', e => {
@@ -53,8 +51,9 @@ AFRAME.registerComponent('clicker', {
             vr-mode-ui="enabled: false" arjs="sourceType: webcam;videoTexture: true;debugUIEnabled: false;"
             renderer='antialias: true; alpha: true' cursor="rayOrigin: mouse; fuse: false">
             <Assets></Assets>
-            <Camera :center="[store.centerPoi.value.lat, store.centerPoi.value.lng]"></Camera>
+            <Camera></Camera>
             <Place></Place>
+            <Coupon></Coupon>
             <!-- <Nft></Nft> -->
             <!-- <Points></Points> -->
             <!-- <Directions></Directions> -->

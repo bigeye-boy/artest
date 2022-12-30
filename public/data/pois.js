@@ -49,7 +49,6 @@ export const pointList = {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          // lat: 35.9999,
           lat: 39.9361791,
           lng: 116.4094403,
         },
