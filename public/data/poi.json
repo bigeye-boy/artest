@@ -3,14 +3,15 @@
     {
       "place_id": "1",
       "types": ["health"],
-      "imgName": "health.png",
+      "placeImg": "/images/placeImg/health.png",
+      "placeIcon": "/images/placeIcon/stethoscope-fill.png",
       "name": "NEOM clinic",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content": "Our team of highly experienced doctors and well-trained nurses and paramedics delivers  comprehensive healthcare services.",
       "language": "en",
       "geometry": {
         "location": {
-          "lat": 39.9364547,
-          "lng": 116.4109558
+          "lat": 39.937121,
+          "lng": 116.4093277
         }
       },
       "height": 1.6,
@@ -91,14 +92,15 @@
     {
       "place_id": "2",
       "type": ["retail"],
-      "imgName": "retail.png",
+      "placeImg": "/images/placeImg/retail.png",
+      "placeIcon": "/images/placeIcon/shopping-basket-2-fill.png",
       "name": "Tamimi Express",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content": "Tamini offers an ultra-modern shopping ambience by integrating all conceivable needs of the consumers under one roof.",
       "language": "en",
       "geometry": {
         "location": {
-          "lat": 39.9364547,
-          "lng": 116.4109558
+          "lat": 39.9369523,
+          "lng": 116.4099634
         }
       },
       "height": 1.6,
@@ -160,13 +162,15 @@
       "place_id": "3",
       "type": ["eating"],
       "imgName": "eating.png",
+      "placeImg": "/images/placeImg/eating.png",
+      "placeIcon": "/images/placeIcon/restaurant-line.png",
       "name": "Dining Hall",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content": "Enjoy a twist on traditional Japanese dining straight from the robata grill accompanied by a beautiful waterfront view.",
       "language": "en",
       "geometry": {
         "location": {
-          "lat": 39.9364547,
-          "lng": 116.4109558
+          "lat": 39.9361791,
+          "lng": 116.4094403
         }
       },
       "height": 1.6,
