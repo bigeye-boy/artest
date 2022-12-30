@@ -1,0 +1,228 @@
+{
+  "data": [
+    {
+      "place_id": "1",
+      "types": ["health"],
+      "imgName": "health.png",
+      "name": "NEOM clinic",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "language": "en",
+      "geometry": {
+        "location": {
+          "lat": 39.9364547,
+          "lng": 116.4109558
+        }
+      },
+      "height": 1.6,
+      "contact": "Contact",
+      "phone": "Phone",
+      "tel": "+123 456 7890",
+      "weekdays": [
+        {
+          "day": "Sunday",
+          "workTime": [
+            {
+              "start": "07:00",
+              "end": "10:00"
+            },
+            {
+              "start": "12:00",
+              "end": "15:00"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "workTime": [
+            {
+              "start": "07:00",
+              "end": "10:00"
+            },
+            {
+              "start": "12:00",
+              "end": "15:00"
+            },
+            {
+              "start": "18:00",
+              "end": "22:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "workTime": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "workTime": [
+            {
+              "start": "12:00",
+              "end": "15:00"
+            },
+            {
+              "start": "18:00",
+              "end": "22:00"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "workTime": [
+            {
+              "start": "12:00",
+              "end": "15:00"
+            },
+            {
+              "start": "18:00",
+              "end": "22:00"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "workTime": "Closed"
+        },
+        {
+          "day": "Saturday",
+          "workTime": "Closed"
+        }
+      ]
+    },
+    {
+      "place_id": "2",
+      "type": ["retail"],
+      "imgName": "retail.png",
+      "name": "Tamimi Express",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "language": "en",
+      "geometry": {
+        "location": {
+          "lat": 39.9364547,
+          "lng": 116.4109558
+        }
+      },
+      "height": 1.6,
+      "contact": "Contact",
+      "phone": "Phone",
+      "tel": "+123 456 7890",
+      "weekdays": [
+        {
+          "day": "Sunday",
+          "workTime": [
+            {
+              "start": "07:00",
+              "end": "10:00"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "workTime": [
+            {
+              "start": "07:00",
+              "end": "10:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "workTime": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "workTime": [
+            {
+              "start": "12:00",
+              "end": "15:00"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "workTime": [
+            {
+              "start": "12:00",
+              "end": "15:00"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "workTime": "Closed"
+        },
+        {
+          "day": "Saturday",
+          "workTime": "Closed"
+        }
+      ]
+    },
+    {
+      "place_id": "3",
+      "type": ["eating"],
+      "imgName": "eating.png",
+      "name": "Dining Hall",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "language": "en",
+      "geometry": {
+        "location": {
+          "lat": 39.9364547,
+          "lng": 116.4109558
+        }
+      },
+      "height": 1.6,
+      "contact": "Contact",
+      "phone": "Phone",
+      "tel": "+123 456 7890",
+      "weekdays": [
+        {
+          "day": "Sunday",
+          "workTime": [
+            {
+              "start": "07:00",
+              "end": "10:00"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "workTime": [
+            {
+              "start": "07:00",
+              "end": "10:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "workTime": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "workTime": [
+            {
+              "start": "12:00",
+              "end": "15:00"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "workTime": [
+            {
+              "start": "12:00",
+              "end": "15:00"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "workTime": "Closed"
+        },
+        {
+          "day": "Saturday",
+          "workTime": "Closed"
+        }
+      ]
+    }
+  ]
+}

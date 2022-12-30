@@ -35,6 +35,6 @@ onMounted(() => {
         :gps-projected-camera="`gpsMinDistance:1;maxDistance:3000;minDistance:1;`"
         rotation-reader look-controls-enabled="false" arjs-look-controls="smoothingFactor: 0.1;touchEnabled:false;" /> -->
 
-    <a-camera id="cameraRef" ref="cameraRef" :gps-new-camera="`maxDistance:3000;minDistance:1;gpsMinDistance:2;`"
+    <a-camera id="cameraRef" ref="cameraRef" :gps-new-camera="`maxDistance:3000;minDistance:1;gpsMinDistance:5;`"
         rotation-reader look-controls-enabled="false" arjs-look-controls="smoothingFactor: 0.1;touchEnabled:false;" />
 </template>

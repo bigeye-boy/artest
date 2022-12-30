@@ -8,8 +8,6 @@ export const pointList = {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          // lat: 35.9999,
-
           lat: 39.937121,
           lng: 116.4093277,
         },
@@ -24,7 +22,7 @@ export const pointList = {
       scope: "GOOGLE",
       types: ["hospital", "health", "point_of_interest", "establishment"],
       vicinity: "昌平区39MW+VX9",
-      distance: 0,
+      height: 1.6,
     },
     {
       business_status: "OPERATIONAL",
@@ -45,7 +43,7 @@ export const pointList = {
       scope: "GOOGLE",
       types: ["fire_station"],
       vicinity: "昌平区39MW+VX9",
-      distance: 0,
+      height: 1.6,
     },
     {
       business_status: "OPERATIONAL",
@@ -87,7 +85,7 @@ export const pointList = {
       scope: "GOOGLE",
       types: ["restaurant"],
       vicinity: "昌平区39MW+VX9",
-      distance: 0,
+      height: 1.6,
     },
     {
       business_status: "OPERATIONAL",
@@ -108,7 +106,7 @@ export const pointList = {
       scope: "GOOGLE",
       types: ["shopping_mall"],
       vicinity: "昌平区39MW+VX9",
-      distance: 0,
+      height: 1.6,
     },
   ],
   status: "OK",

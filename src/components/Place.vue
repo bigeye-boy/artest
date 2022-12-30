@@ -68,7 +68,7 @@ const clickPoint = (e, info) => {
         <a-entity v-for="(item, index) in pointList.results" :ref="setPlaceRef" :key="item.place_id"
             :id="`point_${index}`" look-at="[camera]" :data-info="item"
             :gps-new-entity-place="`latitude: ${item.geometry.location.lat}; longitude: ${item.geometry.location.lng};`"
-            @click.stop="clickPoint($event, item)" scale="2 2 2">
+            @click.stop="clickPoint($event, item)" scale="2 2 2" :position="`0 ${item.height} 0`">
             <a-circle class="bgCircle" position=" 0 0 0.002" color="#fff" opacity="0.52" radius="0.3"></a-circle>
             <a-circle class="dirCircle" position=" 0 0 0.003" color="#fff" radius="0.21"></a-circle>
             <a-image position=" 0 0 0.004" :src="`#${item.types[0]}`" look-at="[camera]" scale="1 1 1" width="0.2"

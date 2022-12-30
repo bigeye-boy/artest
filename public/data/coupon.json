@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "imgName": "burger.png",
+      "imgNameThum": "burger_thum.png",
+      "title": "Burger",
+      "tag": ["Eating"],
+      "tip": "You have unlocked the retail prize!",
+      "couponTitle": "Get a 10% discount",
+      "couponContent": "Order a menu at American diner and apply code NBA007",
+      "couponIcon": "diner.png",
+      "id": "1",
+      "language": "en",
+      "location": {
+        "lat": 39.9364547,
+        "lng": 116.4109558
+      },
+      "height": 1.6,
+      "gltf": ""
+    },
+    {
+      "imgName": "burger.png",
+      "imgNameThum": "burger_thum.png",
+      "title": "Burger",
+      "tag": ["Eating"],
+      "tip": "You have unlocked the retail prize!",
+      "couponTitle": "Unlock your 10% discount",
+      "couponContent": "Order a menu at American diner and apply code NBA007",
+      "couponIcon": "diner.png",
+      "id": "2",
+      "language": "en",
+      "location": {
+        "lat": 39.9364547,
+        "lng": 116.4109558
+      },
+      "height": 1.6,
+      "gltf": ""
+    }
+  ]
+}
