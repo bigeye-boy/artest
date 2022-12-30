@@ -15,8 +15,6 @@
         }
       },
       "height": 1.6,
-      "contact": "Contact",
-      "phone": "Phone",
       "tel": "+123 456 7890",
       "weekdays": [
         {
@@ -91,7 +89,7 @@
     },
     {
       "place_id": "2",
-      "type": ["retail"],
+      "types": ["retail"],
       "placeImg": "/images/placeImg/retail.png",
       "placeIcon": "/images/placeIcon/shopping-basket-2-fill.png",
       "name": "Tamimi Express",
@@ -104,8 +102,6 @@
         }
       },
       "height": 1.6,
-      "contact": "Contact",
-      "phone": "Phone",
       "tel": "+123 456 7890",
       "weekdays": [
         {
@@ -160,7 +156,7 @@
     },
     {
       "place_id": "3",
-      "type": ["eating"],
+      "types": ["eating"],
       "imgName": "eating.png",
       "placeImg": "/images/placeImg/eating.png",
       "placeIcon": "/images/placeIcon/restaurant-line.png",
@@ -174,8 +170,6 @@
         }
       },
       "height": 1.6,
-      "contact": "Contact",
-      "phone": "Phone",
       "tel": "+123 456 7890",
       "weekdays": [
         {

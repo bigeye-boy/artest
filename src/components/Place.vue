@@ -1,7 +1,8 @@
 <script setup>
 import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { useGlobalState } from '@/store'
-import { pointList } from '/public/data/pois.js'
+import pointList from '/public/data/poi.json'
+console.log(pointList);
 const store = useGlobalState()
 const modalRef = ref(null)
 onMounted(() => {
@@ -42,17 +43,15 @@ const setPlaceRef = (el) => {
     placeRefs.value.push(el)
 }
 const clickPoint = (e, info) => {
-    console.log(e);
-    console.log('info', info);
     if (e.target.parentEl.distance > 5) {
         return
     }
     store.setPopupState({
         show: true,
         info: {
-            img: info.icon,
+            img: info.placeImg,
             name: info.name,
-            detail: info.business_status,
+            detail: info.types[0],
         }
     })
     // const tPosition = e.target.object3D.position
@@ -65,13 +64,13 @@ const clickPoint = (e, info) => {
     <a-entity position="0 0 0">
         <!-- gps-new-entity-place	 -->
         <!-- gps-projected-entity-place -->
-        <a-entity v-for="(item, index) in pointList.results" :ref="setPlaceRef" :key="item.place_id"
-            :id="`point_${index}`" look-at="[camera]" :data-info="item"
+        <a-entity v-for="(item, index) in pointList.data" :ref="setPlaceRef" :key="item.place_id" :id="`point_${index}`"
+            look-at="[camera]" :data-info="item"
             :gps-new-entity-place="`latitude: ${item.geometry.location.lat}; longitude: ${item.geometry.location.lng};`"
             @click.stop="clickPoint($event, item)" scale="2 2 2" :position="`0 ${item.height} 0`">
             <a-circle class="bgCircle" position=" 0 0 0.002" color="#fff" opacity="0.52" radius="0.3"></a-circle>
             <a-circle class="dirCircle" position=" 0 0 0.003" color="#fff" radius="0.21"></a-circle>
-            <a-image position=" 0 0 0.004" :src="`#${item.types[0]}`" look-at="[camera]" scale="1 1 1" width="0.2"
+            <a-image position=" 0 0 0.004" :src="`${item.placeIcon}`" look-at="[camera]" scale="1 1 1" width="0.2"
                 height="0.2"></a-image>
             <a-text :value="item.name" align="center" position="0 -0.5 0"></a-text>
             <a-text class="distanceText" value="" position="0 -0.8 0" align="center"></a-text>
