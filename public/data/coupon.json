@@ -10,7 +10,7 @@
       "tip": "You have unlocked the retail prize!",
       "couponTitle": "Get a 10% discount",
       "couponContent": "Order a menu at American diner and apply code NBA007",
-      "couponIcon": "diner.png",
+      "couponIcon": "/images/placeIcon/restaurant-line.png",
       "language": "en",
       "location": {
         "lat": 39.9364547,
@@ -29,7 +29,7 @@
       "tip": "You have unlocked the health prize!",
       "couponTitle": "Free eye check",
       "couponContent": "Book your appointment with your your health expert",
-      "couponIcon": "check.png",
+      "couponIcon": "/images/placeIcon/restaurant-line.png",
       "language": "en",
       "location": {
         "lat": 39.9369523,
@@ -48,7 +48,7 @@
       "tip": "You have unlocked the retail prize!",
       "couponTitle": "Free Coke 1,5l",
       "couponContent": "Go to Tamimi Express and give the code COKE15",
-      "couponIcon": "coke",
+      "couponIcon": "/images/placeIcon/restaurant-line.png",
       "language": "en",
       "location": {
         "lat": 39.9361991,
