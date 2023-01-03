@@ -24,12 +24,32 @@ export const useGlobalState = createGlobalState(() => {
       name: "",
       detail: "",
     },
+    confirm: () => {
+      console.log("confirm");
+    },
   });
 
   function setPopupState(value) {
     popupState.value = { ...popupState.value, ...value };
   }
 
+  const messageState = ref({
+    show: false,
+    content:
+      "You’re getting close to a highlight, tap on the icon to access content.",
+  });
+  function setMessageState(value) {
+    messageState.value = { ...messageState.value, ...value };
+  }
+
+  const nearbyPoints = ref([]);
+  // const hasClickPoints = [];
+  function addNearbyPoints(value) {
+    nearbyPoints.value.push(value);
+  }
+  function delNearbyPoints(value) {
+    nearbyPoints.value = nearbyPoints.value.filter((item) => item != value);
+  }
   return {
     directions,
     setDir,
@@ -37,5 +57,10 @@ export const useGlobalState = createGlobalState(() => {
     setCenterPoi,
     popupState,
     setPopupState,
+    messageState,
+    setMessageState,
+    nearbyPoints,
+    addNearbyPoints,
+    delNearbyPoints,
   };
 });

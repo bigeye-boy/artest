@@ -4,6 +4,7 @@ import { useStorage } from '@vueuse/core'
 import Scene from '@/components/Scene.vue'
 import Popup from '@/components/Popup.vue'
 import Authority from '@/components/Authority.vue'
+import Tip from '@/components/Tip.vue'
 import { useGlobalState } from '@/store'
 const { popupState } = useGlobalState()
 const showAr = ref(false)
@@ -14,5 +15,6 @@ console.log(authScope.value.camera);
     <Scene :class="{'filter-blur-5':popupState.show}" v-if="authScope.camera && authScope.location" />
     <Authority v-else></Authority>
     <Popup></Popup>
+    <Tip></Tip>
 
 </template>

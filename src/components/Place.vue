@@ -16,14 +16,21 @@ onMounted(() => {
                 distance = distance.toFixed(1)
                 item.distance = distance
             }
+            item.clicked = item.clicked || false
             item.querySelector('.distanceText').setAttribute("value", distance + 'M')
-            if (distance <= 5) {
+            if (distance <= 10) {
                 item.querySelector('.bgCircle').setAttribute("color", '#F4B282')
                 item.querySelector('.dirCircle').setAttribute("color", '#F4B282')
+                if (!item.clicked && store.nearbyPoints.value.indexOf(item.id) < 0) {
+                    store.addNearbyPoints(item.id)
+                }
             }
             else {
                 item.querySelector('.bgCircle').setAttribute("color", '#fff')
                 item.querySelector('.dirCircle').setAttribute("color", '#fff')
+                if (!item.clicked) {
+                    store.delNearbyPoints(item.id)
+                }
             }
         })
     })
@@ -33,9 +40,10 @@ const setPlaceRef = (el) => {
     placeRefs.value.push(el)
 }
 const clickPoint = (e, info) => {
-    if (e.target.parentEl.distance > 5) {
+    if (e.target.parentEl.distance > 10) {
         return
     }
+    e.target.parentEl.clicked = true
     store.setPopupState({
         show: true,
         type: '1',
@@ -43,7 +51,15 @@ const clickPoint = (e, info) => {
             img: info.placeImg,
             name: info.name,
             detail: info.types[0],
+        },
+        confirm: function () {
+            wx && wx.miniProgram.navigateTo({
+                url: "/pages/poiDetails/poiDetails?place_id=" + info.place_id
+            })
         }
+    })
+    store.setMessageState({
+        show: false
     })
     // const tPosition = e.target.object3D.position
     // console.log(e.target);

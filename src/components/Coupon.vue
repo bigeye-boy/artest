@@ -15,11 +15,18 @@ onMounted(() => {
                 distance = distance.toFixed(1)
                 item.distance = distance
             }
-            if (distance <= 5) {
+            item.clicked = item.clicked || false
+            if (distance <= 10) {
                 item.setAttribute("visible", 'true')
+                if (!item.clicked && store.nearbyPoints.value.indexOf(item.id) < 0) {
+                    store.addNearbyPoints(item.id)
+                }
             }
             else {
                 item.setAttribute("visible", 'false')
+                if (!item.clicked) {
+                    store.delNearbyPoints(item.id)
+                }
             }
         })
     })
@@ -29,12 +36,16 @@ const setPlaceRef = (el) => {
     placeRefs.value.push(el)
 }
 const clickPoint = (e, info) => {
+    e.target.parentEl.clicked = true
     store.setPopupState({
         show: true,
         type: '2',
         info: {
             img: info.imgName,
         }
+    })
+    store.setMessageState({
+        show: false
     })
 }
 </script>
@@ -43,7 +54,7 @@ const clickPoint = (e, info) => {
         <!-- gps-new-entity-place	 -->
         <!-- gps-projected-entity-place -->
         <a-entity v-for="(item, index) in couponList.data" :ref="setPlaceRef" :key="item.place_id"
-            :id="`point_${index}`" look-at="[camera]" :data-info="item" visible="false"
+            :id="`coupon_${index}`" look-at="[camera]" :data-info="item" visible="false"
             :gps-new-entity-place="`latitude: ${item.location.lat}; longitude: ${item.location.lng};`"
             @click.stop="clickPoint($event, item)" scale="2 2 2" :position="`0 ${item.height} 0`">
             <a-image position="0 0 0" :src="`${item.imgNameThum}`" look-at="[camera]" scale="1 1 1" width="0.5"

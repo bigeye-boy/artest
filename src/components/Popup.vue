@@ -24,8 +24,8 @@ const clickDetail = () => {
                     <div>{{ popupState.info.detail }}</div>
                 </div>
             </div>
-            <div class="px-2 py-1 text-center bg-white border border-gray-300 rounded-md hover:bg-gray-300"
-                @click="clickDetail">
+            <div class="px-2 py-1 text-center cursor-pointer bg-white border border-gray-300 rounded-md hover:bg-gray-300"
+                @click="popupState.confirm">
                 See Detail
             </div>
         </div>
