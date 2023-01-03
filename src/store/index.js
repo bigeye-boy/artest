@@ -20,7 +20,7 @@ export const useGlobalState = createGlobalState(() => {
     show: false,
     type: "1",
     info: {
-      img: "/src/assets/image/info.jpg",
+      img: "",
       name: "",
       detail: "",
     },

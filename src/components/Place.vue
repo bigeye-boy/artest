@@ -21,11 +21,13 @@ onMounted(() => {
             if (distance <= 10) {
                 item.querySelector('.bgCircle').setAttribute("color", '#F4B282')
                 item.querySelector('.dirCircle').setAttribute("color", '#F4B282')
+                item.querySelector('.distanceText').setAttribute("visible", 'false')
                 if (!item.clicked && store.nearbyPoints.value.indexOf(item.id) < 0) {
                     store.addNearbyPoints(item.id)
                 }
             }
             else {
+                item.querySelector('.distanceText').setAttribute("visible", 'true')
                 item.querySelector('.bgCircle').setAttribute("color", '#fff')
                 item.querySelector('.dirCircle').setAttribute("color", '#fff')
                 if (!item.clicked) {

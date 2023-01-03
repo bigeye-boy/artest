@@ -7,7 +7,7 @@
         </div>
         <div class="b-l-1 pl-4">
             <div>
-                <div class="i-ic-sharp-keyboard-double-arrow-up bg-#FA9134 text-4xl"></div>
+                <!-- <div class="i-ic-sharp-keyboard-double-arrow-up bg-#FA9134 text-4xl"></div> -->
             </div>
         </div>
     </div>
