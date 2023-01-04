@@ -5,6 +5,7 @@ import Scene from '@/components/Scene.vue'
 import Popup from '@/components/Popup.vue'
 import Authority from '@/components/Authority.vue'
 import Tip from '@/components/Tip.vue'
+import Getpoi from '@/components/Getpoi.vue'
 import { useGlobalState } from '@/store'
 const { popupState } = useGlobalState()
 const showAuthority = ref(true)
@@ -17,5 +18,6 @@ console.log(authScope.value.camera);
     <Scene :class="{ 'filter-blur-5': popupState.show }" v-else />
     <Popup></Popup>
     <Tip></Tip>
+    <Getpoi></Getpoi>
 
 </template>

@@ -1,11 +1,11 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import { useClipboard } from '@vueuse/core'
+import { useClipboard, useEventBus } from '@vueuse/core'
 const latitude = ref(0)
 const longitude = ref(0)
 let source = ref('')
 const { text, copy, copied, isSupported } = useClipboard({ source })
-
+const { on } = useEventBus('gps-update')
 const watchLocation = () => {
     if (navigator.geolocation) {
         navigator.geolocation.watchPosition(
@@ -27,13 +27,23 @@ const watchLocation = () => {
 }
 
 onMounted(() => {
-    watchLocation()
+
+    on((message) => {
+        console.log('@@', message);
+        latitude.value = message.detail.position.latitude
+        longitude.value = message.detail.position.longitude
+        source.value = `"lat": ${latitude.value},"lng": ${longitude.value}`
+    })
+    // watchLocation()
 })
 </script>
 <template>
-    <div>当前位置：</div>
-    <div>"lat": {{ latitude }},"lng": {{ longitude }}</div>
-    <button @click="copy()" class="h-13 w-full mt-8">
-        <span v-if='!copied'>一键复制</span>
-        <span v-else>复制成功!</span></button>
+    <div class="fixed bottom-0 text-white">
+        <div>当前位置：</div>
+        <div>"lat": {{ latitude }},"lng": {{ longitude }}</div>
+        <button @click="copy()" class="h-8 w-full mt-2">
+            <span v-if='!copied'>一键复制</span>
+            <span v-else>复制成功!</span></button>
+    </div>
+
 </template>
