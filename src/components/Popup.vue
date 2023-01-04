@@ -37,7 +37,7 @@ const clickDetail = () => {
             <div class="text-center mt-6">
                 <img :src="popupState.info.img" class="animate-bounce-in" alt="" />
             </div>
-            <div class="text-center absolute bottom-20 left-1/2 transform -translate-x-1/2">
+            <div class="text-center absolute bottom-20 left-1/2 transform -translate-x-1/2" @click="popupState.confirm">
                 <img src="../assets/image/addCoupon.png" class="w-17" alt="">
             </div>
 

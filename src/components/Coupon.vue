@@ -3,8 +3,19 @@ import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { useGlobalState } from '@/store'
 import couponList from '/public/data/coupon.json'
 import { useEventBus } from '@vueuse/core'
+import { useRoute } from 'vue-router'
 const { on } = useEventBus('gps-update')
 const store = useGlobalState()
+let listData = ref(couponList.data)
+const tokenIds = useRoute().query.tokenIds
+if (tokenIds) {
+    const tokenIdsArr = tokenIds.split(',')
+    let temp = []
+    temp = listData.value.filter(item => {
+        return tokenIdsArr.indexOf(item.id) < 0
+    })
+    listData.value = temp
+}
 onMounted(() => {
     on((message) => {
         let cameraPosition = message.target.object3D.position;
@@ -42,6 +53,11 @@ const clickPoint = (e, info) => {
         type: '2',
         info: {
             img: info.imgName,
+        },
+        confirm: function () {
+            wx && wx.miniProgram.postMessage({
+                data: info.id
+            })
         }
     })
     store.setMessageState({
@@ -53,8 +69,8 @@ const clickPoint = (e, info) => {
     <a-entity position="0 0 0">
         <!-- gps-new-entity-place	 -->
         <!-- gps-projected-entity-place -->
-        <a-entity v-for="(item, index) in couponList.data" :ref="setPlaceRef" :key="item.place_id"
-            :id="`coupon_${index}`" look-at="[camera]" :data-info="item" visible="false"
+        <a-entity v-for="(item, index) in listData" :ref="setPlaceRef" :key="item.place_id" :id="`coupon_${index}`"
+            look-at="[camera]" :data-info="item" visible="false"
             :gps-new-entity-place="`latitude: ${item.location.lat}; longitude: ${item.location.lng};`"
             @click.stop="clickPoint($event, item)" scale="2 2 2" :position="`0 ${item.height} 0`">
             <a-image position="0 0 0" :src="`${item.imgNameThum}`" look-at="[camera]" scale="1 1 1" width="0.5"

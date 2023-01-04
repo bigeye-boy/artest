@@ -2,7 +2,11 @@
 import { useUserMedia, useStorage } from '@vueuse/core'
 import { onMounted, ref } from 'vue';
 const emit = defineEmits(['openAr'])
-const authScope = useStorage('authScope', {
+// const authScope = useStorage('authScope', {
+//     camera: false,
+//     location: false
+// })
+const authScope = ref({
     camera: false,
     location: false
 })
