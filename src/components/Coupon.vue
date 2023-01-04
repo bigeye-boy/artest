@@ -56,7 +56,9 @@ const clickPoint = (e, info) => {
         },
         confirm: function () {
             wx && wx.miniProgram.postMessage({
-                data: info.id
+                data: {
+                    tokenId: info.id
+                }
             })
         }
     })
